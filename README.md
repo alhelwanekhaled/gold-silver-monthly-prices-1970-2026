@@ -1,5 +1,7 @@
 # Gold & Silver Monthly Prices | 1970–2026
 
+**[AlyawmGold dataset page](https://alyawmgold.com/gold-silver-price-dataset)** — overview, chart, and direct JSON download.
+
 **681 consecutive months · two precious metals · USD per troy ounce · JSON**
 
 Explore more than 56 years of gold and silver monthly price history in one compact file. This snapshot covers **January 1970 through September 2026**, with one row per month and a source-reported monthly average for each metal.
