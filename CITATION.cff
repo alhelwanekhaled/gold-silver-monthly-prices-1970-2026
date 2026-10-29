@@ -1,0 +1,25 @@
+{
+  "cff-version": "1.2.0",
+  "type": "dataset",
+  "message": "If you use this dataset, please cite the archived release identified by this DOI.",
+  "title": "Monthly Gold and Silver Prices in USD per Troy Ounce (1970–2026) — AlyawmGold",
+  "authors": [
+    {
+      "name": "AlyawmGold",
+      "website": "https://alyawmgold.com/"
+    }
+  ],
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.23738959",
+  "date-released": "2026-10-28",
+  "url": "https://github.com/alhelwanekhaled/gold-silver-monthly-prices-1970-2026",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "gold",
+    "silver",
+    "monthly prices",
+    "time series",
+    "USD",
+    "troy ounce"
+  ]
+}

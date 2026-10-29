@@ -1,0 +1,3479 @@
+{
+  "name": "AlyawmGold Monthly Gold and Silver Prices",
+  "version": "1.0.0",
+  "doi": "10.5281/zenodo.23738959",
+  "interval": "monthly",
+  "currency": "USD",
+  "unit": "troy ounce",
+  "timezone": "UTC",
+  "from": "1970-01",
+  "through": "2026-09",
+  "recordCount": 681,
+  "sources": [
+    {
+      "symbol": "XAU",
+      "url": "https://alyawmgold.com/price-history/table-data?symbol=XAU&interval=monthly&range=all",
+      "retrieved_at_utc": "2026-10-28T16:00:57.1338467Z",
+      "records": 678
+    },
+    {
+      "symbol": "XAG",
+      "url": "https://alyawmgold.com/price-history/table-data?symbol=XAG&interval=monthly&range=all",
+      "retrieved_at_utc": "2026-10-28T16:00:58.5851704Z",
+      "records": 678
+    },
+    {
+      "symbol": "XAU",
+      "url": "https://api.gold-api.com/history?symbol=XAU&startTimestamp=1780272000&endTimestamp=1788220799&groupBy=month&aggregation=avg&orderBy=asc",
+      "retrieved_at_utc": "2026-10-28T16:02:35.7083179Z",
+      "records": 3
+    },
+    {
+      "symbol": "XAG",
+      "url": "https://api.gold-api.com/history?symbol=XAG&startTimestamp=1780272000&endTimestamp=1788220799&groupBy=month&aggregation=avg&orderBy=asc",
+      "retrieved_at_utc": "2026-10-28T16:02:39.8875463Z",
+      "records": 3
+    },
+    {
+      "symbol": "XAU",
+      "kind": "average",
+      "url": "https://api.gold-api.com/history?symbol=XAU&startTimestamp=1788220800&endTimestamp=1790812799&groupBy=month&aggregation=avg&orderBy=asc",
+      "retrieved_at_utc": "2026-10-28T16:13:49.9907342Z"
+    },
+    {
+      "symbol": "XAU",
+      "kind": "ohlc",
+      "url": "https://api.gold-api.com/ohlc/XAU?startTimestamp=1788220800&endTimestamp=1790812799",
+      "retrieved_at_utc": "2026-10-28T16:13:51.8858665Z"
+    },
+    {
+      "symbol": "XAG",
+      "kind": "average",
+      "url": "https://api.gold-api.com/history?symbol=XAG&startTimestamp=1788220800&endTimestamp=1790812799&groupBy=month&aggregation=avg&orderBy=asc",
+      "retrieved_at_utc": "2026-10-28T16:13:53.7705671Z"
+    },
+    {
+      "symbol": "XAG",
+      "kind": "ohlc",
+      "url": "https://api.gold-api.com/ohlc/XAG?startTimestamp=1788220800&endTimestamp=1790812799",
+      "retrieved_at_utc": "2026-10-28T16:13:55.5866772Z"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+  "notes": [
+    "Monthly source averages, copied without recomputing the previously flagged daily series. These are not closing prices.",
+    "June-August 2026 were absent from the website monthly tables and recovered directly from Gold API. September 2026 was also retrieved directly to replace the website calculated fallback.",
+    "Application-calculated fallback months from captured observations: none.",
+    "Only completed UTC months are included. No interpolation or exchange-rate conversion is used.",
+    "Reference screening flagged differences above 5% for gold in 1980-12 and 1983-07, and silver in 2025-12. These are review leads, not confirmed errors; source prices are retained.",
+    "Licensed under CC BY 4.0 to the extent of rights held by the licensor. Credit AlyawmGold and retain the source acknowledgments; no additional rights in third-party material are granted."
+  ],
+  "data": [
+    {
+      "month": "1970-01",
+      "gold_average_usd_per_ounce": 35.193184,
+      "silver_average_usd_per_ounce": 1.857077
+    },
+    {
+      "month": "1970-02",
+      "gold_average_usd_per_ounce": 35.188946,
+      "silver_average_usd_per_ounce": 1.893435
+    },
+    {
+      "month": "1970-03",
+      "gold_average_usd_per_ounce": 35.297272,
+      "silver_average_usd_per_ounce": 1.881808
+    },
+    {
+      "month": "1970-04",
+      "gold_average_usd_per_ounce": 35.873634,
+      "silver_average_usd_per_ounce": 1.850038
+    },
+    {
+      "month": "1970-05",
+      "gold_average_usd_per_ounce": 36.161903,
+      "silver_average_usd_per_ounce": 1.673654
+    },
+    {
+      "month": "1970-06",
+      "gold_average_usd_per_ounce": 35.664543,
+      "silver_average_usd_per_ounce": 1.639769
+    },
+    {
+      "month": "1970-07",
+      "gold_average_usd_per_ounce": 35.524761,
+      "silver_average_usd_per_ounce": 1.680037
+    },
+    {
+      "month": "1970-08",
+      "gold_average_usd_per_ounce": 35.655651,
+      "silver_average_usd_per_ounce": 1.798192
+    },
+    {
+      "month": "1970-09",
+      "gold_average_usd_per_ounce": 36.468571,
+      "silver_average_usd_per_ounce": 1.80176
+    },
+    {
+      "month": "1970-10",
+      "gold_average_usd_per_ounce": 37.881905,
+      "silver_average_usd_per_ounce": 1.745615
+    },
+    {
+      "month": "1970-11",
+      "gold_average_usd_per_ounce": 37.691578,
+      "silver_average_usd_per_ounce": 1.756308
+    },
+    {
+      "month": "1970-12",
+      "gold_average_usd_per_ounce": 37.699524,
+      "silver_average_usd_per_ounce": 1.632231
+    },
+    {
+      "month": "1971-01",
+      "gold_average_usd_per_ounce": 38.296955,
+      "silver_average_usd_per_ounce": 1.631346
+    },
+    {
+      "month": "1971-02",
+      "gold_average_usd_per_ounce": 39.057369,
+      "silver_average_usd_per_ounce": 1.597913
+    },
+    {
+      "month": "1971-03",
+      "gold_average_usd_per_ounce": 39.161739,
+      "silver_average_usd_per_ounce": 1.663148
+    },
+    {
+      "month": "1971-04",
+      "gold_average_usd_per_ounce": 39.290501,
+      "silver_average_usd_per_ounce": 1.7216
+    },
+    {
+      "month": "1971-05",
+      "gold_average_usd_per_ounce": 40.828182,
+      "silver_average_usd_per_ounce": 1.65952
+    },
+    {
+      "month": "1971-06",
+      "gold_average_usd_per_ounce": 40.347729,
+      "silver_average_usd_per_ounce": 1.603731
+    },
+    {
+      "month": "1971-07",
+      "gold_average_usd_per_ounce": 41.334999,
+      "silver_average_usd_per_ounce": 1.5726
+    },
+    {
+      "month": "1971-08",
+      "gold_average_usd_per_ounce": 42.955002,
+      "silver_average_usd_per_ounce": 1.585077
+    },
+    {
+      "month": "1971-09",
+      "gold_average_usd_per_ounce": 42.437141,
+      "silver_average_usd_per_ounce": 1.4146
+    },
+    {
+      "month": "1971-10",
+      "gold_average_usd_per_ounce": 42.771427,
+      "silver_average_usd_per_ounce": 1.326154
+    },
+    {
+      "month": "1971-11",
+      "gold_average_usd_per_ounce": 43.170502,
+      "silver_average_usd_per_ounce": 1.313346
+    },
+    {
+      "month": "1971-12",
+      "gold_average_usd_per_ounce": 43.741501,
+      "silver_average_usd_per_ounce": 1.386556
+    },
+    {
+      "month": "1972-01",
+      "gold_average_usd_per_ounce": 46.662498,
+      "silver_average_usd_per_ounce": 1.472704
+    },
+    {
+      "month": "1972-02",
+      "gold_average_usd_per_ounce": 48.480499,
+      "silver_average_usd_per_ounce": 1.503833
+    },
+    {
+      "month": "1972-03",
+      "gold_average_usd_per_ounce": 48.616669,
+      "silver_average_usd_per_ounce": 1.530692
+    },
+    {
+      "month": "1972-04",
+      "gold_average_usd_per_ounce": 49.335457,
+      "silver_average_usd_per_ounce": 1.57108
+    },
+    {
+      "month": "1972-05",
+      "gold_average_usd_per_ounce": 55.328182,
+      "silver_average_usd_per_ounce": 1.5825
+    },
+    {
+      "month": "1972-06",
+      "gold_average_usd_per_ounce": 62.635239,
+      "silver_average_usd_per_ounce": 1.56692
+    },
+    {
+      "month": "1972-07",
+      "gold_average_usd_per_ounce": 66.152725,
+      "silver_average_usd_per_ounce": 1.720885
+    },
+    {
+      "month": "1972-08",
+      "gold_average_usd_per_ounce": 67.090431,
+      "silver_average_usd_per_ounce": 1.839593
+    },
+    {
+      "month": "1972-09",
+      "gold_average_usd_per_ounce": 65.608002,
+      "silver_average_usd_per_ounce": 1.774292
+    },
+    {
+      "month": "1972-10",
+      "gold_average_usd_per_ounce": 65.105003,
+      "silver_average_usd_per_ounce": 1.800778
+    },
+    {
+      "month": "1972-11",
+      "gold_average_usd_per_ounce": 63.129475,
+      "silver_average_usd_per_ounce": 1.822
+    },
+    {
+      "month": "1972-12",
+      "gold_average_usd_per_ounce": 64.129471,
+      "silver_average_usd_per_ounce": 1.9575
+    },
+    {
+      "month": "1973-01",
+      "gold_average_usd_per_ounce": 66.902176,
+      "silver_average_usd_per_ounce": 2.021111
+    },
+    {
+      "month": "1973-02",
+      "gold_average_usd_per_ounce": 75.834213,
+      "silver_average_usd_per_ounce": 2.214087
+    },
+    {
+      "month": "1973-03",
+      "gold_average_usd_per_ounce": 84.498573,
+      "silver_average_usd_per_ounce": 2.275167
+    },
+    {
+      "month": "1973-04",
+      "gold_average_usd_per_ounce": 90.790001,
+      "silver_average_usd_per_ounce": 2.18508
+    },
+    {
+      "month": "1973-05",
+      "gold_average_usd_per_ounce": 104.002724,
+      "silver_average_usd_per_ounce": 2.361577
+    },
+    {
+      "month": "1973-06",
+      "gold_average_usd_per_ounce": 120.515236,
+      "silver_average_usd_per_ounce": 2.59104
+    },
+    {
+      "month": "1973-07",
+      "gold_average_usd_per_ounce": 119.989548,
+      "silver_average_usd_per_ounce": 2.793074
+    },
+    {
+      "month": "1973-08",
+      "gold_average_usd_per_ounce": 105.998184,
+      "silver_average_usd_per_ounce": 2.671111
+    },
+    {
+      "month": "1973-09",
+      "gold_average_usd_per_ounce": 102.908096,
+      "silver_average_usd_per_ounce": 2.64325
+    },
+    {
+      "month": "1973-10",
+      "gold_average_usd_per_ounce": 100.469543,
+      "silver_average_usd_per_ounce": 2.854741
+    },
+    {
+      "month": "1973-11",
+      "gold_average_usd_per_ounce": 95.387894,
+      "silver_average_usd_per_ounce": 2.832654
+    },
+    {
+      "month": "1973-12",
+      "gold_average_usd_per_ounce": 106.851051,
+      "silver_average_usd_per_ounce": 3.11416
+    },
+    {
+      "month": "1974-01",
+      "gold_average_usd_per_ounce": 131.39209,
+      "silver_average_usd_per_ounce": 3.645407
+    },
+    {
+      "month": "1974-02",
+      "gold_average_usd_per_ounce": 152.371506,
+      "silver_average_usd_per_ounce": 5.262957
+    },
+    {
+      "month": "1974-03",
+      "gold_average_usd_per_ounce": 169.007721,
+      "silver_average_usd_per_ounce": 5.354808
+    },
+    {
+      "month": "1974-04",
+      "gold_average_usd_per_ounce": 172.147141,
+      "silver_average_usd_per_ounce": 4.98152
+    },
+    {
+      "month": "1974-05",
+      "gold_average_usd_per_ounce": 162.96048,
+      "silver_average_usd_per_ounce": 5.365923
+    },
+    {
+      "month": "1974-06",
+      "gold_average_usd_per_ounce": 153.875,
+      "silver_average_usd_per_ounce": 4.82572
+    },
+    {
+      "month": "1974-07",
+      "gold_average_usd_per_ounce": 144.924088,
+      "silver_average_usd_per_ounce": 4.369148
+    },
+    {
+      "month": "1974-08",
+      "gold_average_usd_per_ounce": 154.64476,
+      "silver_average_usd_per_ounce": 4.432385
+    },
+    {
+      "month": "1974-09",
+      "gold_average_usd_per_ounce": 151.920456,
+      "silver_average_usd_per_ounce": 4.05492
+    },
+    {
+      "month": "1974-10",
+      "gold_average_usd_per_ounce": 159.969543,
+      "silver_average_usd_per_ounce": 4.794185
+    },
+    {
+      "month": "1974-11",
+      "gold_average_usd_per_ounce": 182.534744,
+      "silver_average_usd_per_ounce": 4.68036
+    },
+    {
+      "month": "1974-12",
+      "gold_average_usd_per_ounce": 184.509003,
+      "silver_average_usd_per_ounce": 4.449667
+    },
+    {
+      "month": "1975-01",
+      "gold_average_usd_per_ounce": 177.13739,
+      "silver_average_usd_per_ounce": 4.228148
+    },
+    {
+      "month": "1975-02",
+      "gold_average_usd_per_ounce": 182.963165,
+      "silver_average_usd_per_ounce": 4.386609
+    },
+    {
+      "month": "1975-03",
+      "gold_average_usd_per_ounce": 179.679993,
+      "silver_average_usd_per_ounce": 4.36732
+    },
+    {
+      "month": "1975-04",
+      "gold_average_usd_per_ounce": 170.442734,
+      "silver_average_usd_per_ounce": 4.224
+    },
+    {
+      "month": "1975-05",
+      "gold_average_usd_per_ounce": 169.364502,
+      "silver_average_usd_per_ounce": 4.53132
+    },
+    {
+      "month": "1975-06",
+      "gold_average_usd_per_ounce": 167.492722,
+      "silver_average_usd_per_ounce": 4.486692
+    },
+    {
+      "month": "1975-07",
+      "gold_average_usd_per_ounce": 168.294098,
+      "silver_average_usd_per_ounce": 4.693889
+    },
+    {
+      "month": "1975-08",
+      "gold_average_usd_per_ounce": 168.095245,
+      "silver_average_usd_per_ounce": 4.9296
+    },
+    {
+      "month": "1975-09",
+      "gold_average_usd_per_ounce": 146.275909,
+      "silver_average_usd_per_ounce": 4.498038
+    },
+    {
+      "month": "1975-10",
+      "gold_average_usd_per_ounce": 144.366196,
+      "silver_average_usd_per_ounce": 4.333148
+    },
+    {
+      "month": "1975-11",
+      "gold_average_usd_per_ounce": 143.001053,
+      "silver_average_usd_per_ounce": 4.30968
+    },
+    {
+      "month": "1975-12",
+      "gold_average_usd_per_ounce": 141.0,
+      "silver_average_usd_per_ounce": 4.08764
+    },
+    {
+      "month": "1976-01",
+      "gold_average_usd_per_ounce": 131.803177,
+      "silver_average_usd_per_ounce": 4.079365
+    },
+    {
+      "month": "1976-02",
+      "gold_average_usd_per_ounce": 131.792999,
+      "silver_average_usd_per_ounce": 4.08975
+    },
+    {
+      "month": "1976-03",
+      "gold_average_usd_per_ounce": 133.350433,
+      "silver_average_usd_per_ounce": 4.195389
+    },
+    {
+      "month": "1976-04",
+      "gold_average_usd_per_ounce": 128.977005,
+      "silver_average_usd_per_ounce": 4.35096
+    },
+    {
+      "month": "1976-05",
+      "gold_average_usd_per_ounce": 127.855453,
+      "silver_average_usd_per_ounce": 4.4848
+    },
+    {
+      "month": "1976-06",
+      "gold_average_usd_per_ounce": 127.095909,
+      "silver_average_usd_per_ounce": 4.790192
+    },
+    {
+      "month": "1976-07",
+      "gold_average_usd_per_ounce": 117.571503,
+      "silver_average_usd_per_ounce": 4.75892
+    },
+    {
+      "month": "1976-08",
+      "gold_average_usd_per_ounce": 110.331741,
+      "silver_average_usd_per_ounce": 4.255593
+    },
+    {
+      "month": "1976-09",
+      "gold_average_usd_per_ounce": 116.192856,
+      "silver_average_usd_per_ounce": 4.2964
+    },
+    {
+      "month": "1976-10",
+      "gold_average_usd_per_ounce": 117.429543,
+      "silver_average_usd_per_ounce": 4.225885
+    },
+    {
+      "month": "1976-11",
+      "gold_average_usd_per_ounce": 133.055237,
+      "silver_average_usd_per_ounce": 4.3625
+    },
+    {
+      "month": "1976-12",
+      "gold_average_usd_per_ounce": 135.986496,
+      "silver_average_usd_per_ounce": 4.343037
+    },
+    {
+      "month": "1977-01",
+      "gold_average_usd_per_ounce": 134.090424,
+      "silver_average_usd_per_ounce": 4.414444
+    },
+    {
+      "month": "1977-02",
+      "gold_average_usd_per_ounce": 138.660004,
+      "silver_average_usd_per_ounce": 4.539304
+    },
+    {
+      "month": "1977-03",
+      "gold_average_usd_per_ounce": 150.3013,
+      "silver_average_usd_per_ounce": 4.85837
+    },
+    {
+      "month": "1977-04",
+      "gold_average_usd_per_ounce": 150.703506,
+      "silver_average_usd_per_ounce": 4.793042
+    },
+    {
+      "month": "1977-05",
+      "gold_average_usd_per_ounce": 147.264084,
+      "silver_average_usd_per_ounce": 4.702115
+    },
+    {
+      "month": "1977-06",
+      "gold_average_usd_per_ounce": 142.430908,
+      "silver_average_usd_per_ounce": 4.468462
+    },
+    {
+      "month": "1977-07",
+      "gold_average_usd_per_ounce": 144.949493,
+      "silver_average_usd_per_ounce": 4.5226
+    },
+    {
+      "month": "1977-08",
+      "gold_average_usd_per_ounce": 148.027832,
+      "silver_average_usd_per_ounce": 4.461556
+    },
+    {
+      "month": "1977-09",
+      "gold_average_usd_per_ounce": 152.916504,
+      "silver_average_usd_per_ounce": 4.5394
+    },
+    {
+      "month": "1977-10",
+      "gold_average_usd_per_ounce": 161.910873,
+      "silver_average_usd_per_ounce": 4.760365
+    },
+    {
+      "month": "1977-11",
+      "gold_average_usd_per_ounce": 163.96666,
+      "silver_average_usd_per_ounce": 4.829808
+    },
+    {
+      "month": "1977-12",
+      "gold_average_usd_per_ounce": 163.127502,
+      "silver_average_usd_per_ounce": 4.7227
+    },
+    {
+      "month": "1978-01",
+      "gold_average_usd_per_ounce": 176.327393,
+      "silver_average_usd_per_ounce": 4.960741
+    },
+    {
+      "month": "1978-02",
+      "gold_average_usd_per_ounce": 181.274445,
+      "silver_average_usd_per_ounce": 4.957783
+    },
+    {
+      "month": "1978-03",
+      "gold_average_usd_per_ounce": 185.543335,
+      "silver_average_usd_per_ounce": 5.261192
+    },
+    {
+      "month": "1978-04",
+      "gold_average_usd_per_ounce": 176.680908,
+      "silver_average_usd_per_ounce": 5.14876
+    },
+    {
+      "month": "1978-05",
+      "gold_average_usd_per_ounce": 178.664093,
+      "silver_average_usd_per_ounce": 5.138962
+    },
+    {
+      "month": "1978-06",
+      "gold_average_usd_per_ounce": 186.430954,
+      "silver_average_usd_per_ounce": 5.325346
+    },
+    {
+      "month": "1978-07",
+      "gold_average_usd_per_ounce": 192.392273,
+      "silver_average_usd_per_ounce": 5.351346
+    },
+    {
+      "month": "1978-08",
+      "gold_average_usd_per_ounce": 213.021744,
+      "silver_average_usd_per_ounce": 5.535667
+    },
+    {
+      "month": "1978-09",
+      "gold_average_usd_per_ounce": 218.389008,
+      "silver_average_usd_per_ounce": 5.590292
+    },
+    {
+      "month": "1978-10",
+      "gold_average_usd_per_ounce": 232.197388,
+      "silver_average_usd_per_ounce": 5.934444
+    },
+    {
+      "month": "1978-11",
+      "gold_average_usd_per_ounce": 206.434998,
+      "silver_average_usd_per_ounce": 5.882269
+    },
+    {
+      "month": "1978-12",
+      "gold_average_usd_per_ounce": 214.28334,
+      "silver_average_usd_per_ounce": 5.931375
+    },
+    {
+      "month": "1979-01",
+      "gold_average_usd_per_ounce": 227.720718,
+      "silver_average_usd_per_ounce": 6.402037
+    },
+    {
+      "month": "1979-02",
+      "gold_average_usd_per_ounce": 246.519577,
+      "silver_average_usd_per_ounce": 7.35187
+    },
+    {
+      "month": "1979-03",
+      "gold_average_usd_per_ounce": 242.294449,
+      "silver_average_usd_per_ounce": 7.414615
+    },
+    {
+      "month": "1979-04",
+      "gold_average_usd_per_ounce": 239.461929,
+      "silver_average_usd_per_ounce": 7.46308
+    },
+    {
+      "month": "1979-05",
+      "gold_average_usd_per_ounce": 257.90332,
+      "silver_average_usd_per_ounce": 8.390385
+    },
+    {
+      "month": "1979-06",
+      "gold_average_usd_per_ounce": 279.852692,
+      "silver_average_usd_per_ounce": 8.54824
+    },
+    {
+      "month": "1979-07",
+      "gold_average_usd_per_ounce": 296.012604,
+      "silver_average_usd_per_ounce": 9.137111
+    },
+    {
+      "month": "1979-08",
+      "gold_average_usd_per_ounce": 302.461426,
+      "silver_average_usd_per_ounce": 9.316037
+    },
+    {
+      "month": "1979-09",
+      "gold_average_usd_per_ounce": 359.51001,
+      "silver_average_usd_per_ounce": 13.944625
+    },
+    {
+      "month": "1979-10",
+      "gold_average_usd_per_ounce": 392.166443,
+      "silver_average_usd_per_ounce": 16.724001
+    },
+    {
+      "month": "1979-11",
+      "gold_average_usd_per_ounce": 392.392212,
+      "silver_average_usd_per_ounce": 16.568924
+    },
+    {
+      "month": "1979-12",
+      "gold_average_usd_per_ounce": 463.80307,
+      "silver_average_usd_per_ounce": 22.63652
+    },
+    {
+      "month": "1980-01",
+      "gold_average_usd_per_ounce": 673.257507,
+      "silver_average_usd_per_ounce": 38.740925
+    },
+    {
+      "month": "1980-02",
+      "gold_average_usd_per_ounce": 669.652771,
+      "silver_average_usd_per_ounce": 35.502499
+    },
+    {
+      "month": "1980-03",
+      "gold_average_usd_per_ounce": 556.4104,
+      "silver_average_usd_per_ounce": 24.563269
+    },
+    {
+      "month": "1980-04",
+      "gold_average_usd_per_ounce": 516.922607,
+      "silver_average_usd_per_ounce": 14.9006
+    },
+    {
+      "month": "1980-05",
+      "gold_average_usd_per_ounce": 514.349976,
+      "silver_average_usd_per_ounce": 12.67348
+    },
+    {
+      "month": "1980-06",
+      "gold_average_usd_per_ounce": 605.362305,
+      "silver_average_usd_per_ounce": 15.843962
+    },
+    {
+      "month": "1980-07",
+      "gold_average_usd_per_ounce": 645.716797,
+      "silver_average_usd_per_ounce": 16.287926
+    },
+    {
+      "month": "1980-08",
+      "gold_average_usd_per_ounce": 630.701904,
+      "silver_average_usd_per_ounce": 15.88768
+    },
+    {
+      "month": "1980-09",
+      "gold_average_usd_per_ounce": 678.545532,
+      "silver_average_usd_per_ounce": 20.067192
+    },
+    {
+      "month": "1980-10",
+      "gold_average_usd_per_ounce": 663.423218,
+      "silver_average_usd_per_ounce": 20.196074
+    },
+    {
+      "month": "1980-11",
+      "gold_average_usd_per_ounce": 626.294983,
+      "silver_average_usd_per_ounce": 18.6402
+    },
+    {
+      "month": "1980-12",
+      "gold_average_usd_per_ounce": 596.280701,
+      "silver_average_usd_per_ounce": 16.39484
+    },
+    {
+      "month": "1981-01",
+      "gold_average_usd_per_ounce": 561.799622,
+      "silver_average_usd_per_ounce": 14.60976
+    },
+    {
+      "month": "1981-02",
+      "gold_average_usd_per_ounce": 501.619995,
+      "silver_average_usd_per_ounce": 13.110087
+    },
+    {
+      "month": "1981-03",
+      "gold_average_usd_per_ounce": 501.30777,
+      "silver_average_usd_per_ounce": 12.313333
+    },
+    {
+      "month": "1981-04",
+      "gold_average_usd_per_ounce": 496.340729,
+      "silver_average_usd_per_ounce": 11.48144
+    },
+    {
+      "month": "1981-05",
+      "gold_average_usd_per_ounce": 481.91153,
+      "silver_average_usd_per_ounce": 10.85764
+    },
+    {
+      "month": "1981-06",
+      "gold_average_usd_per_ounce": 462.210754,
+      "silver_average_usd_per_ounce": 9.972769
+    },
+    {
+      "month": "1981-07",
+      "gold_average_usd_per_ounce": 409.884644,
+      "silver_average_usd_per_ounce": 8.591667
+    },
+    {
+      "month": "1981-08",
+      "gold_average_usd_per_ounce": 414.757782,
+      "silver_average_usd_per_ounce": 8.896846
+    },
+    {
+      "month": "1981-09",
+      "gold_average_usd_per_ounce": 446.540375,
+      "silver_average_usd_per_ounce": 10.10024
+    },
+    {
+      "month": "1981-10",
+      "gold_average_usd_per_ounce": 439.26889,
+      "silver_average_usd_per_ounce": 9.254712
+    },
+    {
+      "month": "1981-11",
+      "gold_average_usd_per_ounce": 413.560394,
+      "silver_average_usd_per_ounce": 8.537385
+    },
+    {
+      "month": "1981-12",
+      "gold_average_usd_per_ounce": 409.981781,
+      "silver_average_usd_per_ounce": 8.444019
+    },
+    {
+      "month": "1982-01",
+      "gold_average_usd_per_ounce": 385.501495,
+      "silver_average_usd_per_ounce": 7.975923
+    },
+    {
+      "month": "1982-02",
+      "gold_average_usd_per_ounce": 374.330414,
+      "silver_average_usd_per_ounce": 8.260913
+    },
+    {
+      "month": "1982-03",
+      "gold_average_usd_per_ounce": 329.912506,
+      "silver_average_usd_per_ounce": 7.186635
+    },
+    {
+      "month": "1982-04",
+      "gold_average_usd_per_ounce": 352.218506,
+      "silver_average_usd_per_ounce": 7.30956
+    },
+    {
+      "month": "1982-05",
+      "gold_average_usd_per_ounce": 335.342682,
+      "silver_average_usd_per_ounce": 6.66108
+    },
+    {
+      "month": "1982-06",
+      "gold_average_usd_per_ounce": 316.095551,
+      "silver_average_usd_per_ounce": 5.541731
+    },
+    {
+      "month": "1982-07",
+      "gold_average_usd_per_ounce": 340.552704,
+      "silver_average_usd_per_ounce": 6.46952
+    },
+    {
+      "month": "1982-08",
+      "gold_average_usd_per_ounce": 369.219635,
+      "silver_average_usd_per_ounce": 7.112481
+    },
+    {
+      "month": "1982-09",
+      "gold_average_usd_per_ounce": 437.611908,
+      "silver_average_usd_per_ounce": 8.72598
+    },
+    {
+      "month": "1982-10",
+      "gold_average_usd_per_ounce": 423.664825,
+      "silver_average_usd_per_ounce": 9.404269
+    },
+    {
+      "month": "1982-11",
+      "gold_average_usd_per_ounce": 415.551483,
+      "silver_average_usd_per_ounce": 9.767154
+    },
+    {
+      "month": "1982-12",
+      "gold_average_usd_per_ounce": 446.328583,
+      "silver_average_usd_per_ounce": 10.61737
+    },
+    {
+      "month": "1983-01",
+      "gold_average_usd_per_ounce": 480.071075,
+      "silver_average_usd_per_ounce": 12.334481
+    },
+    {
+      "month": "1983-02",
+      "gold_average_usd_per_ounce": 489.945404,
+      "silver_average_usd_per_ounce": 13.647417
+    },
+    {
+      "month": "1983-03",
+      "gold_average_usd_per_ounce": 420.771423,
+      "silver_average_usd_per_ounce": 10.618889
+    },
+    {
+      "month": "1983-04",
+      "gold_average_usd_per_ounce": 432.953064,
+      "silver_average_usd_per_ounce": 11.696125
+    },
+    {
+      "month": "1983-05",
+      "gold_average_usd_per_ounce": 438.188843,
+      "silver_average_usd_per_ounce": 12.896269
+    },
+    {
+      "month": "1983-06",
+      "gold_average_usd_per_ounce": 414.094086,
+      "silver_average_usd_per_ounce": 11.770615
+    },
+    {
+      "month": "1983-07",
+      "gold_average_usd_per_ounce": 423.269623,
+      "silver_average_usd_per_ounce": 12.04608
+    },
+    {
+      "month": "1983-08",
+      "gold_average_usd_per_ounce": 418.532135,
+      "silver_average_usd_per_ounce": 12.076593
+    },
+    {
+      "month": "1983-09",
+      "gold_average_usd_per_ounce": 413.280762,
+      "silver_average_usd_per_ounce": 11.9692
+    },
+    {
+      "month": "1983-10",
+      "gold_average_usd_per_ounce": 394.803711,
+      "silver_average_usd_per_ounce": 9.873923
+    },
+    {
+      "month": "1983-11",
+      "gold_average_usd_per_ounce": 382.481476,
+      "silver_average_usd_per_ounce": 8.809231
+    },
+    {
+      "month": "1983-12",
+      "gold_average_usd_per_ounce": 387.828461,
+      "silver_average_usd_per_ounce": 9.1467
+    },
+    {
+      "month": "1984-01",
+      "gold_average_usd_per_ounce": 371.191071,
+      "silver_average_usd_per_ounce": 8.202259
+    },
+    {
+      "month": "1984-02",
+      "gold_average_usd_per_ounce": 386.686401,
+      "silver_average_usd_per_ounce": 9.099167
+    },
+    {
+      "month": "1984-03",
+      "gold_average_usd_per_ounce": 395.035553,
+      "silver_average_usd_per_ounce": 9.645038
+    },
+    {
+      "month": "1984-04",
+      "gold_average_usd_per_ounce": 382.510376,
+      "silver_average_usd_per_ounce": 9.251
+    },
+    {
+      "month": "1984-05",
+      "gold_average_usd_per_ounce": 377.799988,
+      "silver_average_usd_per_ounce": 8.945577
+    },
+    {
+      "month": "1984-06",
+      "gold_average_usd_per_ounce": 378.892303,
+      "silver_average_usd_per_ounce": 8.76352
+    },
+    {
+      "month": "1984-07",
+      "gold_average_usd_per_ounce": 347.800385,
+      "silver_average_usd_per_ounce": 7.452815
+    },
+    {
+      "month": "1984-08",
+      "gold_average_usd_per_ounce": 350.039276,
+      "silver_average_usd_per_ounce": 7.608407
+    },
+    {
+      "month": "1984-09",
+      "gold_average_usd_per_ounce": 342.604004,
+      "silver_average_usd_per_ounce": 7.257083
+    },
+    {
+      "month": "1984-10",
+      "gold_average_usd_per_ounce": 340.778564,
+      "silver_average_usd_per_ounce": 7.285111
+    },
+    {
+      "month": "1984-11",
+      "gold_average_usd_per_ounce": 341.933319,
+      "silver_average_usd_per_ounce": 7.507731
+    },
+    {
+      "month": "1984-12",
+      "gold_average_usd_per_ounce": 319.420776,
+      "silver_average_usd_per_ounce": 6.64672
+    },
+    {
+      "month": "1985-01",
+      "gold_average_usd_per_ounce": 303.378204,
+      "silver_average_usd_per_ounce": 6.079333
+    },
+    {
+      "month": "1985-02",
+      "gold_average_usd_per_ounce": 299.337494,
+      "silver_average_usd_per_ounce": 6.062826
+    },
+    {
+      "month": "1985-03",
+      "gold_average_usd_per_ounce": 304.774078,
+      "silver_average_usd_per_ounce": 5.961462
+    },
+    {
+      "month": "1985-04",
+      "gold_average_usd_per_ounce": 325.718506,
+      "silver_average_usd_per_ounce": 6.46472
+    },
+    {
+      "month": "1985-05",
+      "gold_average_usd_per_ounce": 316.799988,
+      "silver_average_usd_per_ounce": 6.260519
+    },
+    {
+      "month": "1985-06",
+      "gold_average_usd_per_ounce": 317.153839,
+      "silver_average_usd_per_ounce": 6.15774
+    },
+    {
+      "month": "1985-07",
+      "gold_average_usd_per_ounce": 318.003571,
+      "silver_average_usd_per_ounce": 6.090463
+    },
+    {
+      "month": "1985-08",
+      "gold_average_usd_per_ounce": 331.707397,
+      "silver_average_usd_per_ounce": 6.255635
+    },
+    {
+      "month": "1985-09",
+      "gold_average_usd_per_ounce": 324.36731,
+      "silver_average_usd_per_ounce": 6.06592
+    },
+    {
+      "month": "1985-10",
+      "gold_average_usd_per_ounce": 326.476776,
+      "silver_average_usd_per_ounce": 6.184759
+    },
+    {
+      "month": "1985-11",
+      "gold_average_usd_per_ounce": 325.542297,
+      "silver_average_usd_per_ounce": 6.12616
+    },
+    {
+      "month": "1985-12",
+      "gold_average_usd_per_ounce": 323.185181,
+      "silver_average_usd_per_ounce": 5.890148
+    },
+    {
+      "month": "1986-01",
+      "gold_average_usd_per_ounce": 345.120728,
+      "silver_average_usd_per_ounce": 6.036148
+    },
+    {
+      "month": "1986-02",
+      "gold_average_usd_per_ounce": 340.212097,
+      "silver_average_usd_per_ounce": 5.886935
+    },
+    {
+      "month": "1986-03",
+      "gold_average_usd_per_ounce": 346.048157,
+      "silver_average_usd_per_ounce": 5.62534
+    },
+    {
+      "month": "1986-04",
+      "gold_average_usd_per_ounce": 341.190369,
+      "silver_average_usd_per_ounce": 5.220231
+    },
+    {
+      "month": "1986-05",
+      "gold_average_usd_per_ounce": 342.649994,
+      "silver_average_usd_per_ounce": 5.10038
+    },
+    {
+      "month": "1986-06",
+      "gold_average_usd_per_ounce": 343.773071,
+      "silver_average_usd_per_ounce": 5.151308
+    },
+    {
+      "month": "1986-07",
+      "gold_average_usd_per_ounce": 348.833557,
+      "silver_average_usd_per_ounce": 5.042037
+    },
+    {
+      "month": "1986-08",
+      "gold_average_usd_per_ounce": 378.494629,
+      "silver_average_usd_per_ounce": 5.21208
+    },
+    {
+      "month": "1986-09",
+      "gold_average_usd_per_ounce": 419.875183,
+      "silver_average_usd_per_ounce": 5.685404
+    },
+    {
+      "month": "1986-10",
+      "gold_average_usd_per_ounce": 424.746796,
+      "silver_average_usd_per_ounce": 5.658741
+    },
+    {
+      "month": "1986-11",
+      "gold_average_usd_per_ounce": 398.290771,
+      "silver_average_usd_per_ounce": 5.57208
+    },
+    {
+      "month": "1986-12",
+      "gold_average_usd_per_ounce": 391.597137,
+      "silver_average_usd_per_ounce": 5.362673
+    },
+    {
+      "month": "1987-01",
+      "gold_average_usd_per_ounce": 408.454071,
+      "silver_average_usd_per_ounce": 5.584038
+    },
+    {
+      "month": "1987-02",
+      "gold_average_usd_per_ounce": 401.783478,
+      "silver_average_usd_per_ounce": 5.488375
+    },
+    {
+      "month": "1987-03",
+      "gold_average_usd_per_ounce": 409.711487,
+      "silver_average_usd_per_ounce": 5.6695
+    },
+    {
+      "month": "1987-04",
+      "gold_average_usd_per_ounce": 440.353699,
+      "silver_average_usd_per_ounce": 7.53698
+    },
+    {
+      "month": "1987-05",
+      "gold_average_usd_per_ounce": 460.889618,
+      "silver_average_usd_per_ounce": 8.42234
+    },
+    {
+      "month": "1987-06",
+      "gold_average_usd_per_ounce": 450.440369,
+      "silver_average_usd_per_ounce": 7.404135
+    },
+    {
+      "month": "1987-07",
+      "gold_average_usd_per_ounce": 450.761444,
+      "silver_average_usd_per_ounce": 7.629722
+    },
+    {
+      "month": "1987-08",
+      "gold_average_usd_per_ounce": 462.942596,
+      "silver_average_usd_per_ounce": 7.838346
+    },
+    {
+      "month": "1987-09",
+      "gold_average_usd_per_ounce": 461.241547,
+      "silver_average_usd_per_ounce": 7.6038
+    },
+    {
+      "month": "1987-10",
+      "gold_average_usd_per_ounce": 467.098145,
+      "silver_average_usd_per_ounce": 7.62402
+    },
+    {
+      "month": "1987-11",
+      "gold_average_usd_per_ounce": 469.179626,
+      "silver_average_usd_per_ounce": 6.735577
+    },
+    {
+      "month": "1987-12",
+      "gold_average_usd_per_ounce": 486.744293,
+      "silver_average_usd_per_ounce": 6.808904
+    },
+    {
+      "month": "1988-01",
+      "gold_average_usd_per_ounce": 476.932587,
+      "silver_average_usd_per_ounce": 6.712038
+    },
+    {
+      "month": "1988-02",
+      "gold_average_usd_per_ounce": 442.206787,
+      "silver_average_usd_per_ounce": 6.333833
+    },
+    {
+      "month": "1988-03",
+      "gold_average_usd_per_ounce": 444.228943,
+      "silver_average_usd_per_ounce": 6.413944
+    },
+    {
+      "month": "1988-04",
+      "gold_average_usd_per_ounce": 453.105774,
+      "silver_average_usd_per_ounce": 6.47575
+    },
+    {
+      "month": "1988-05",
+      "gold_average_usd_per_ounce": 451.702698,
+      "silver_average_usd_per_ounce": 6.544769
+    },
+    {
+      "month": "1988-06",
+      "gold_average_usd_per_ounce": 452.275177,
+      "silver_average_usd_per_ounce": 7.032538
+    },
+    {
+      "month": "1988-07",
+      "gold_average_usd_per_ounce": 438.478088,
+      "silver_average_usd_per_ounce": 7.08324
+    },
+    {
+      "month": "1988-08",
+      "gold_average_usd_per_ounce": 433.099274,
+      "silver_average_usd_per_ounce": 6.696019
+    },
+    {
+      "month": "1988-09",
+      "gold_average_usd_per_ounce": 413.675385,
+      "silver_average_usd_per_ounce": 6.36514
+    },
+    {
+      "month": "1988-10",
+      "gold_average_usd_per_ounce": 407.858521,
+      "silver_average_usd_per_ounce": 6.2885
+    },
+    {
+      "month": "1988-11",
+      "gold_average_usd_per_ounce": 420.765564,
+      "silver_average_usd_per_ounce": 6.286846
+    },
+    {
+      "month": "1988-12",
+      "gold_average_usd_per_ounce": 419.45578,
+      "silver_average_usd_per_ounce": 6.12024
+    },
+    {
+      "month": "1989-01",
+      "gold_average_usd_per_ounce": 403.66037,
+      "silver_average_usd_per_ounce": 5.970704
+    },
+    {
+      "month": "1989-02",
+      "gold_average_usd_per_ounce": 388.433746,
+      "silver_average_usd_per_ounce": 5.873652
+    },
+    {
+      "month": "1989-03",
+      "gold_average_usd_per_ounce": 391.194641,
+      "silver_average_usd_per_ounce": 5.950981
+    },
+    {
+      "month": "1989-04",
+      "gold_average_usd_per_ounce": 385.423065,
+      "silver_average_usd_per_ounce": 5.79266
+    },
+    {
+      "month": "1989-05",
+      "gold_average_usd_per_ounce": 371.464813,
+      "silver_average_usd_per_ounce": 5.440942
+    },
+    {
+      "month": "1989-06",
+      "gold_average_usd_per_ounce": 368.411102,
+      "silver_average_usd_per_ounce": 5.281423
+    },
+    {
+      "month": "1989-07",
+      "gold_average_usd_per_ounce": 375.871857,
+      "silver_average_usd_per_ounce": 5.234731
+    },
+    {
+      "month": "1989-08",
+      "gold_average_usd_per_ounce": 366.105011,
+      "silver_average_usd_per_ounce": 5.179667
+    },
+    {
+      "month": "1989-09",
+      "gold_average_usd_per_ounce": 362.721985,
+      "silver_average_usd_per_ounce": 5.135417
+    },
+    {
+      "month": "1989-10",
+      "gold_average_usd_per_ounce": 367.899261,
+      "silver_average_usd_per_ounce": 5.145074
+    },
+    {
+      "month": "1989-11",
+      "gold_average_usd_per_ounce": 394.924438,
+      "silver_average_usd_per_ounce": 5.485885
+    },
+    {
+      "month": "1989-12",
+      "gold_average_usd_per_ounce": 410.567596,
+      "silver_average_usd_per_ounce": 5.55932
+    },
+    {
+      "month": "1990-01",
+      "gold_average_usd_per_ounce": 410.321777,
+      "silver_average_usd_per_ounce": 5.231333
+    },
+    {
+      "month": "1990-02",
+      "gold_average_usd_per_ounce": 417.696259,
+      "silver_average_usd_per_ounce": 5.28813
+    },
+    {
+      "month": "1990-03",
+      "gold_average_usd_per_ounce": 393.705933,
+      "silver_average_usd_per_ounce": 5.073904
+    },
+    {
+      "month": "1990-04",
+      "gold_average_usd_per_ounce": 375.086151,
+      "silver_average_usd_per_ounce": 5.05484
+    },
+    {
+      "month": "1990-05",
+      "gold_average_usd_per_ounce": 369.598145,
+      "silver_average_usd_per_ounce": 5.075538
+    },
+    {
+      "month": "1990-06",
+      "gold_average_usd_per_ounce": 353.324219,
+      "silver_average_usd_per_ounce": 4.92096
+    },
+    {
+      "month": "1990-07",
+      "gold_average_usd_per_ounce": 363.564087,
+      "silver_average_usd_per_ounce": 4.881556
+    },
+    {
+      "month": "1990-08",
+      "gold_average_usd_per_ounce": 397.904633,
+      "silver_average_usd_per_ounce": 5.023685
+    },
+    {
+      "month": "1990-09",
+      "gold_average_usd_per_ounce": 391.064789,
+      "silver_average_usd_per_ounce": 4.81422
+    },
+    {
+      "month": "1990-10",
+      "gold_average_usd_per_ounce": 381.29071,
+      "silver_average_usd_per_ounce": 4.387019
+    },
+    {
+      "month": "1990-11",
+      "gold_average_usd_per_ounce": 382.234436,
+      "silver_average_usd_per_ounce": 4.181481
+    },
+    {
+      "month": "1990-12",
+      "gold_average_usd_per_ounce": 379.549988,
+      "silver_average_usd_per_ounce": 4.089519
+    },
+    {
+      "month": "1991-01",
+      "gold_average_usd_per_ounce": 384.59787,
+      "silver_average_usd_per_ounce": 4.057741
+    },
+    {
+      "month": "1991-02",
+      "gold_average_usd_per_ounce": 364.401245,
+      "silver_average_usd_per_ounce": 3.746375
+    },
+    {
+      "month": "1991-03",
+      "gold_average_usd_per_ounce": 363.582977,
+      "silver_average_usd_per_ounce": 3.9601
+    },
+    {
+      "month": "1991-04",
+      "gold_average_usd_per_ounce": 358.643707,
+      "silver_average_usd_per_ounce": 3.982115
+    },
+    {
+      "month": "1991-05",
+      "gold_average_usd_per_ounce": 357.094452,
+      "silver_average_usd_per_ounce": 4.055333
+    },
+    {
+      "month": "1991-06",
+      "gold_average_usd_per_ounce": 367.639221,
+      "silver_average_usd_per_ounce": 4.39912
+    },
+    {
+      "month": "1991-07",
+      "gold_average_usd_per_ounce": 368.049652,
+      "silver_average_usd_per_ounce": 4.348611
+    },
+    {
+      "month": "1991-08",
+      "gold_average_usd_per_ounce": 357.370728,
+      "silver_average_usd_per_ounce": 3.966827
+    },
+    {
+      "month": "1991-09",
+      "gold_average_usd_per_ounce": 349.759216,
+      "silver_average_usd_per_ounce": 4.05068
+    },
+    {
+      "month": "1991-10",
+      "gold_average_usd_per_ounce": 359.446075,
+      "silver_average_usd_per_ounce": 4.118296
+    },
+    {
+      "month": "1991-11",
+      "gold_average_usd_per_ounce": 360.445007,
+      "silver_average_usd_per_ounce": 4.07512
+    },
+    {
+      "month": "1991-12",
+      "gold_average_usd_per_ounce": 361.478882,
+      "silver_average_usd_per_ounce": 3.950426
+    },
+    {
+      "month": "1992-01",
+      "gold_average_usd_per_ounce": 354.726776,
+      "silver_average_usd_per_ounce": 4.116704
+    },
+    {
+      "month": "1992-02",
+      "gold_average_usd_per_ounce": 354.246246,
+      "silver_average_usd_per_ounce": 4.14975
+    },
+    {
+      "month": "1992-03",
+      "gold_average_usd_per_ounce": 344.479248,
+      "silver_average_usd_per_ounce": 4.114796
+    },
+    {
+      "month": "1992-04",
+      "gold_average_usd_per_ounce": 338.771118,
+      "silver_average_usd_per_ounce": 4.053333
+    },
+    {
+      "month": "1992-05",
+      "gold_average_usd_per_ounce": 337.555389,
+      "silver_average_usd_per_ounce": 4.076442
+    },
+    {
+      "month": "1992-06",
+      "gold_average_usd_per_ounce": 341.337402,
+      "silver_average_usd_per_ounce": 4.063692
+    },
+    {
+      "month": "1992-07",
+      "gold_average_usd_per_ounce": 352.982849,
+      "silver_average_usd_per_ounce": 3.971222
+    },
+    {
+      "month": "1992-08",
+      "gold_average_usd_per_ounce": 344.142975,
+      "silver_average_usd_per_ounce": 3.82225
+    },
+    {
+      "month": "1992-09",
+      "gold_average_usd_per_ounce": 346.101166,
+      "silver_average_usd_per_ounce": 3.773981
+    },
+    {
+      "month": "1992-10",
+      "gold_average_usd_per_ounce": 344.76593,
+      "silver_average_usd_per_ounce": 3.752885
+    },
+    {
+      "month": "1992-11",
+      "gold_average_usd_per_ounce": 335.100769,
+      "silver_average_usd_per_ounce": 3.773904
+    },
+    {
+      "month": "1992-12",
+      "gold_average_usd_per_ounce": 334.779297,
+      "silver_average_usd_per_ounce": 3.724827
+    },
+    {
+      "month": "1993-01",
+      "gold_average_usd_per_ounce": 329.237396,
+      "silver_average_usd_per_ounce": 3.706731
+    },
+    {
+      "month": "1993-02",
+      "gold_average_usd_per_ounce": 329.462921,
+      "silver_average_usd_per_ounce": 3.653891
+    },
+    {
+      "month": "1993-03",
+      "gold_average_usd_per_ounce": 330.309998,
+      "silver_average_usd_per_ounce": 3.650426
+    },
+    {
+      "month": "1993-04",
+      "gold_average_usd_per_ounce": 342.187042,
+      "silver_average_usd_per_ounce": 3.95922
+    },
+    {
+      "month": "1993-05",
+      "gold_average_usd_per_ounce": 367.191528,
+      "silver_average_usd_per_ounce": 4.45752
+    },
+    {
+      "month": "1993-06",
+      "gold_average_usd_per_ounce": 372.255188,
+      "silver_average_usd_per_ounce": 4.374481
+    },
+    {
+      "month": "1993-07",
+      "gold_average_usd_per_ounce": 392.580383,
+      "silver_average_usd_per_ounce": 5.0299
+    },
+    {
+      "month": "1993-08",
+      "gold_average_usd_per_ounce": 378.582977,
+      "silver_average_usd_per_ounce": 4.862296
+    },
+    {
+      "month": "1993-09",
+      "gold_average_usd_per_ounce": 355.291534,
+      "silver_average_usd_per_ounce": 4.2047
+    },
+    {
+      "month": "1993-10",
+      "gold_average_usd_per_ounce": 364.691864,
+      "silver_average_usd_per_ounce": 4.341288
+    },
+    {
+      "month": "1993-11",
+      "gold_average_usd_per_ounce": 374.478882,
+      "silver_average_usd_per_ounce": 4.543827
+    },
+    {
+      "month": "1993-12",
+      "gold_average_usd_per_ounce": 384.435699,
+      "silver_average_usd_per_ounce": 4.986173
+    },
+    {
+      "month": "1994-01",
+      "gold_average_usd_per_ounce": 387.253571,
+      "silver_average_usd_per_ounce": 5.161308
+    },
+    {
+      "month": "1994-02",
+      "gold_average_usd_per_ounce": 382.350403,
+      "silver_average_usd_per_ounce": 5.263283
+    },
+    {
+      "month": "1994-03",
+      "gold_average_usd_per_ounce": 384.497498,
+      "silver_average_usd_per_ounce": 5.443231
+    },
+    {
+      "month": "1994-04",
+      "gold_average_usd_per_ounce": 379.32193,
+      "silver_average_usd_per_ounce": 5.343583
+    },
+    {
+      "month": "1994-05",
+      "gold_average_usd_per_ounce": 381.92807,
+      "silver_average_usd_per_ounce": 5.448481
+    },
+    {
+      "month": "1994-06",
+      "gold_average_usd_per_ounce": 386.182953,
+      "silver_average_usd_per_ounce": 5.392596
+    },
+    {
+      "month": "1994-07",
+      "gold_average_usd_per_ounce": 385.94577,
+      "silver_average_usd_per_ounce": 5.292077
+    },
+    {
+      "month": "1994-08",
+      "gold_average_usd_per_ounce": 381.409271,
+      "silver_average_usd_per_ounce": 5.20813
+    },
+    {
+      "month": "1994-09",
+      "gold_average_usd_per_ounce": 392.176147,
+      "silver_average_usd_per_ounce": 5.52524
+    },
+    {
+      "month": "1994-10",
+      "gold_average_usd_per_ounce": 390.498901,
+      "silver_average_usd_per_ounce": 5.4445
+    },
+    {
+      "month": "1994-11",
+      "gold_average_usd_per_ounce": 384.462585,
+      "silver_average_usd_per_ounce": 5.187038
+    },
+    {
+      "month": "1994-12",
+      "gold_average_usd_per_ounce": 379.907318,
+      "silver_average_usd_per_ounce": 4.77852
+    },
+    {
+      "month": "1995-01",
+      "gold_average_usd_per_ounce": 379.126801,
+      "silver_average_usd_per_ounce": 4.778852
+    },
+    {
+      "month": "1995-02",
+      "gold_average_usd_per_ounce": 376.901672,
+      "silver_average_usd_per_ounce": 4.713521
+    },
+    {
+      "month": "1995-03",
+      "gold_average_usd_per_ounce": 382.418579,
+      "silver_average_usd_per_ounce": 4.642963
+    },
+    {
+      "month": "1995-04",
+      "gold_average_usd_per_ounce": 391.620392,
+      "silver_average_usd_per_ounce": 5.528083
+    },
+    {
+      "month": "1995-05",
+      "gold_average_usd_per_ounce": 385.689636,
+      "silver_average_usd_per_ounce": 5.529685
+    },
+    {
+      "month": "1995-06",
+      "gold_average_usd_per_ounce": 388.139252,
+      "silver_average_usd_per_ounce": 5.368519
+    },
+    {
+      "month": "1995-07",
+      "gold_average_usd_per_ounce": 386.651154,
+      "silver_average_usd_per_ounce": 5.165385
+    },
+    {
+      "month": "1995-08",
+      "gold_average_usd_per_ounce": 384.713226,
+      "silver_average_usd_per_ounce": 5.401037
+    },
+    {
+      "month": "1995-09",
+      "gold_average_usd_per_ounce": 383.662415,
+      "silver_average_usd_per_ounce": 5.43896
+    },
+    {
+      "month": "1995-10",
+      "gold_average_usd_per_ounce": 383.564453,
+      "silver_average_usd_per_ounce": 5.371148
+    },
+    {
+      "month": "1995-11",
+      "gold_average_usd_per_ounce": 385.559631,
+      "silver_average_usd_per_ounce": 5.314288
+    },
+    {
+      "month": "1995-12",
+      "gold_average_usd_per_ounce": 387.785614,
+      "silver_average_usd_per_ounce": 5.181021
+    },
+    {
+      "month": "1996-01",
+      "gold_average_usd_per_ounce": 399.287506,
+      "silver_average_usd_per_ounce": 5.475389
+    },
+    {
+      "month": "1996-02",
+      "gold_average_usd_per_ounce": 405.31839,
+      "silver_average_usd_per_ounce": 5.654208
+    },
+    {
+      "month": "1996-03",
+      "gold_average_usd_per_ounce": 396.600372,
+      "silver_average_usd_per_ounce": 5.530673
+    },
+    {
+      "month": "1996-04",
+      "gold_average_usd_per_ounce": 393.401855,
+      "silver_average_usd_per_ounce": 5.4132
+    },
+    {
+      "month": "1996-05",
+      "gold_average_usd_per_ounce": 392.223328,
+      "silver_average_usd_per_ounce": 5.36937
+    },
+    {
+      "month": "1996-06",
+      "gold_average_usd_per_ounce": 385.864227,
+      "silver_average_usd_per_ounce": 5.16826
+    },
+    {
+      "month": "1996-07",
+      "gold_average_usd_per_ounce": 383.791779,
+      "silver_average_usd_per_ounce": 5.065611
+    },
+    {
+      "month": "1996-08",
+      "gold_average_usd_per_ounce": 388.36853,
+      "silver_average_usd_per_ounce": 5.1405
+    },
+    {
+      "month": "1996-09",
+      "gold_average_usd_per_ounce": 383.547699,
+      "silver_average_usd_per_ounce": 5.031058
+    },
+    {
+      "month": "1996-10",
+      "gold_average_usd_per_ounce": 381.527496,
+      "silver_average_usd_per_ounce": 4.928685
+    },
+    {
+      "month": "1996-11",
+      "gold_average_usd_per_ounce": 378.167297,
+      "silver_average_usd_per_ounce": 4.83284
+    },
+    {
+      "month": "1996-12",
+      "gold_average_usd_per_ounce": 369.311096,
+      "silver_average_usd_per_ounce": 4.825185
+    },
+    {
+      "month": "1997-01",
+      "gold_average_usd_per_ounce": 356.264648,
+      "silver_average_usd_per_ounce": 4.7785
+    },
+    {
+      "month": "1997-02",
+      "gold_average_usd_per_ounce": 347.065826,
+      "silver_average_usd_per_ounce": 5.074729
+    },
+    {
+      "month": "1997-03",
+      "gold_average_usd_per_ounce": 352.396667,
+      "silver_average_usd_per_ounce": 5.199583
+    },
+    {
+      "month": "1997-04",
+      "gold_average_usd_per_ounce": 344.969269,
+      "silver_average_usd_per_ounce": 4.771019
+    },
+    {
+      "month": "1997-05",
+      "gold_average_usd_per_ounce": 344.06308,
+      "silver_average_usd_per_ounce": 4.763
+    },
+    {
+      "month": "1997-06",
+      "gold_average_usd_per_ounce": 341.059998,
+      "silver_average_usd_per_ounce": 4.757308
+    },
+    {
+      "month": "1997-07",
+      "gold_average_usd_per_ounce": 324.571442,
+      "silver_average_usd_per_ounce": 4.376385
+    },
+    {
+      "month": "1997-08",
+      "gold_average_usd_per_ounce": 324.933075,
+      "silver_average_usd_per_ounce": 4.51694
+    },
+    {
+      "month": "1997-09",
+      "gold_average_usd_per_ounce": 323.109161,
+      "silver_average_usd_per_ounce": 4.748304
+    },
+    {
+      "month": "1997-10",
+      "gold_average_usd_per_ounce": 324.890411,
+      "silver_average_usd_per_ounce": 5.032104
+    },
+    {
+      "month": "1997-11",
+      "gold_average_usd_per_ounce": 306.059052,
+      "silver_average_usd_per_ounce": 5.077925
+    },
+    {
+      "month": "1997-12",
+      "gold_average_usd_per_ounce": 289.285004,
+      "silver_average_usd_per_ounce": 5.821136
+    },
+    {
+      "month": "1998-01",
+      "gold_average_usd_per_ounce": 288.837494,
+      "silver_average_usd_per_ounce": 5.868739
+    },
+    {
+      "month": "1998-02",
+      "gold_average_usd_per_ounce": 297.599548,
+      "silver_average_usd_per_ounce": 6.83969
+    },
+    {
+      "month": "1998-03",
+      "gold_average_usd_per_ounce": 295.958252,
+      "silver_average_usd_per_ounce": 6.251935
+    },
+    {
+      "month": "1998-04",
+      "gold_average_usd_per_ounce": 308.503754,
+      "silver_average_usd_per_ounce": 6.34869
+    },
+    {
+      "month": "1998-05",
+      "gold_average_usd_per_ounce": 299.816681,
+      "silver_average_usd_per_ounce": 5.59595
+    },
+    {
+      "month": "1998-06",
+      "gold_average_usd_per_ounce": 292.388336,
+      "silver_average_usd_per_ounce": 5.269022
+    },
+    {
+      "month": "1998-07",
+      "gold_average_usd_per_ounce": 292.894592,
+      "silver_average_usd_per_ounce": 5.449583
+    },
+    {
+      "month": "1998-08",
+      "gold_average_usd_per_ounce": 283.64624,
+      "silver_average_usd_per_ounce": 5.1692
+    },
+    {
+      "month": "1998-09",
+      "gold_average_usd_per_ounce": 289.049164,
+      "silver_average_usd_per_ounce": 4.997065
+    },
+    {
+      "month": "1998-10",
+      "gold_average_usd_per_ounce": 295.801208,
+      "silver_average_usd_per_ounce": 4.993021
+    },
+    {
+      "month": "1998-11",
+      "gold_average_usd_per_ounce": 294.135376,
+      "silver_average_usd_per_ounce": 4.9675
+    },
+    {
+      "month": "1998-12",
+      "gold_average_usd_per_ounce": 290.82608,
+      "silver_average_usd_per_ounce": 4.882212
+    },
+    {
+      "month": "1999-01",
+      "gold_average_usd_per_ounce": 287.466553,
+      "silver_average_usd_per_ounce": 5.1576
+    },
+    {
+      "month": "1999-02",
+      "gold_average_usd_per_ounce": 287.347076,
+      "silver_average_usd_per_ounce": 5.533152
+    },
+    {
+      "month": "1999-03",
+      "gold_average_usd_per_ounce": 285.957489,
+      "silver_average_usd_per_ounce": 5.188796
+    },
+    {
+      "month": "1999-04",
+      "gold_average_usd_per_ounce": 282.382233,
+      "silver_average_usd_per_ounce": 5.0587
+    },
+    {
+      "month": "1999-05",
+      "gold_average_usd_per_ounce": 276.720764,
+      "silver_average_usd_per_ounce": 5.2462
+    },
+    {
+      "month": "1999-06",
+      "gold_average_usd_per_ounce": 261.454071,
+      "silver_average_usd_per_ounce": 5.045577
+    },
+    {
+      "month": "1999-07",
+      "gold_average_usd_per_ounce": 255.96077,
+      "silver_average_usd_per_ounce": 5.17334
+    },
+    {
+      "month": "1999-08",
+      "gold_average_usd_per_ounce": 256.712585,
+      "silver_average_usd_per_ounce": 5.27537
+    },
+    {
+      "month": "1999-09",
+      "gold_average_usd_per_ounce": 264.861145,
+      "silver_average_usd_per_ounce": 5.2308
+    },
+    {
+      "month": "1999-10",
+      "gold_average_usd_per_ounce": 310.785919,
+      "silver_average_usd_per_ounce": 5.427404
+    },
+    {
+      "month": "1999-11",
+      "gold_average_usd_per_ounce": 293.273346,
+      "silver_average_usd_per_ounce": 5.157019
+    },
+    {
+      "month": "1999-12",
+      "gold_average_usd_per_ounce": 283.838562,
+      "silver_average_usd_per_ounce": 5.17875
+    },
+    {
+      "month": "2000-01",
+      "gold_average_usd_per_ounce": 284.642212,
+      "silver_average_usd_per_ounce": 5.204712
+    },
+    {
+      "month": "2000-02",
+      "gold_average_usd_per_ounce": 300.804413,
+      "silver_average_usd_per_ounce": 5.258229
+    },
+    {
+      "month": "2000-03",
+      "gold_average_usd_per_ounce": 286.647858,
+      "silver_average_usd_per_ounce": 5.070278
+    },
+    {
+      "month": "2000-04",
+      "gold_average_usd_per_ounce": 279.82077,
+      "silver_average_usd_per_ounce": 5.061771
+    },
+    {
+      "month": "2000-05",
+      "gold_average_usd_per_ounce": 275.353333,
+      "silver_average_usd_per_ounce": 4.989808
+    },
+    {
+      "month": "2000-06",
+      "gold_average_usd_per_ounce": 285.912231,
+      "silver_average_usd_per_ounce": 5.004904
+    },
+    {
+      "month": "2000-07",
+      "gold_average_usd_per_ounce": 281.953339,
+      "silver_average_usd_per_ounce": 4.973942
+    },
+    {
+      "month": "2000-08",
+      "gold_average_usd_per_ounce": 274.588226,
+      "silver_average_usd_per_ounce": 4.891667
+    },
+    {
+      "month": "2000-09",
+      "gold_average_usd_per_ounce": 273.773193,
+      "silver_average_usd_per_ounce": 4.891042
+    },
+    {
+      "month": "2000-10",
+      "gold_average_usd_per_ounce": 269.892853,
+      "silver_average_usd_per_ounce": 4.837222
+    },
+    {
+      "month": "2000-11",
+      "gold_average_usd_per_ounce": 266.102081,
+      "silver_average_usd_per_ounce": 4.6873
+    },
+    {
+      "month": "2000-12",
+      "gold_average_usd_per_ounce": 271.845642,
+      "silver_average_usd_per_ounce": 4.648125
+    },
+    {
+      "month": "2001-01",
+      "gold_average_usd_per_ounce": 265.96579,
+      "silver_average_usd_per_ounce": 4.660481
+    },
+    {
+      "month": "2001-02",
+      "gold_average_usd_per_ounce": 262.12204,
+      "silver_average_usd_per_ounce": 4.557717
+    },
+    {
+      "month": "2001-03",
+      "gold_average_usd_per_ounce": 263.29245,
+      "silver_average_usd_per_ounce": 4.407019
+    },
+    {
+      "month": "2001-04",
+      "gold_average_usd_per_ounce": 260.644257,
+      "silver_average_usd_per_ounce": 4.377
+    },
+    {
+      "month": "2001-05",
+      "gold_average_usd_per_ounce": 272.629211,
+      "silver_average_usd_per_ounce": 4.433077
+    },
+    {
+      "month": "2001-06",
+      "gold_average_usd_per_ounce": 270.448517,
+      "silver_average_usd_per_ounce": 4.3718
+    },
+    {
+      "month": "2001-07",
+      "gold_average_usd_per_ounce": 267.626129,
+      "silver_average_usd_per_ounce": 4.264444
+    },
+    {
+      "month": "2001-08",
+      "gold_average_usd_per_ounce": 272.585083,
+      "silver_average_usd_per_ounce": 4.208148
+    },
+    {
+      "month": "2001-09",
+      "gold_average_usd_per_ounce": 283.848236,
+      "silver_average_usd_per_ounce": 4.370625
+    },
+    {
+      "month": "2001-10",
+      "gold_average_usd_per_ounce": 283.18158,
+      "silver_average_usd_per_ounce": 4.403611
+    },
+    {
+      "month": "2001-11",
+      "gold_average_usd_per_ounce": 276.304291,
+      "silver_average_usd_per_ounce": 4.129904
+    },
+    {
+      "month": "2001-12",
+      "gold_average_usd_per_ounce": 276.290619,
+      "silver_average_usd_per_ounce": 4.391442
+    },
+    {
+      "month": "2002-01",
+      "gold_average_usd_per_ounce": 281.377411,
+      "silver_average_usd_per_ounce": 4.529135
+    },
+    {
+      "month": "2002-02",
+      "gold_average_usd_per_ounce": 295.592224,
+      "silver_average_usd_per_ounce": 4.426042
+    },
+    {
+      "month": "2002-03",
+      "gold_average_usd_per_ounce": 294.722076,
+      "silver_average_usd_per_ounce": 4.54558
+    },
+    {
+      "month": "2002-04",
+      "gold_average_usd_per_ounce": 302.835297,
+      "silver_average_usd_per_ounce": 4.583462
+    },
+    {
+      "month": "2002-05",
+      "gold_average_usd_per_ounce": 314.439026,
+      "silver_average_usd_per_ounce": 4.711759
+    },
+    {
+      "month": "2002-06",
+      "gold_average_usd_per_ounce": 321.866943,
+      "silver_average_usd_per_ounce": 4.9217
+    },
+    {
+      "month": "2002-07",
+      "gold_average_usd_per_ounce": 313.540985,
+      "silver_average_usd_per_ounce": 4.926574
+    },
+    {
+      "month": "2002-08",
+      "gold_average_usd_per_ounce": 310.359375,
+      "silver_average_usd_per_ounce": 4.55375
+    },
+    {
+      "month": "2002-09",
+      "gold_average_usd_per_ounce": 319.472137,
+      "silver_average_usd_per_ounce": 4.5575
+    },
+    {
+      "month": "2002-10",
+      "gold_average_usd_per_ounce": 316.689423,
+      "silver_average_usd_per_ounce": 4.406204
+    },
+    {
+      "month": "2002-11",
+      "gold_average_usd_per_ounce": 319.284454,
+      "silver_average_usd_per_ounce": 4.5231
+    },
+    {
+      "month": "2002-12",
+      "gold_average_usd_per_ounce": 334.735107,
+      "silver_average_usd_per_ounce": 4.653611
+    },
+    {
+      "month": "2003-01",
+      "gold_average_usd_per_ounce": 356.830566,
+      "silver_average_usd_per_ounce": 4.831111
+    },
+    {
+      "month": "2003-02",
+      "gold_average_usd_per_ounce": 359.379791,
+      "silver_average_usd_per_ounce": 4.664062
+    },
+    {
+      "month": "2003-03",
+      "gold_average_usd_per_ounce": 340.870819,
+      "silver_average_usd_per_ounce": 4.535769
+    },
+    {
+      "month": "2003-04",
+      "gold_average_usd_per_ounce": 328.287354,
+      "silver_average_usd_per_ounce": 4.5062
+    },
+    {
+      "month": "2003-05",
+      "gold_average_usd_per_ounce": 355.868011,
+      "silver_average_usd_per_ounce": 4.750481
+    },
+    {
+      "month": "2003-06",
+      "gold_average_usd_per_ounce": 356.531311,
+      "silver_average_usd_per_ounce": 4.534808
+    },
+    {
+      "month": "2003-07",
+      "gold_average_usd_per_ounce": 351.473907,
+      "silver_average_usd_per_ounce": 4.80963
+    },
+    {
+      "month": "2003-08",
+      "gold_average_usd_per_ounce": 360.12851,
+      "silver_average_usd_per_ounce": 5.0025
+    },
+    {
+      "month": "2003-09",
+      "gold_average_usd_per_ounce": 379.196838,
+      "silver_average_usd_per_ounce": 5.176442
+    },
+    {
+      "month": "2003-10",
+      "gold_average_usd_per_ounce": 378.83667,
+      "silver_average_usd_per_ounce": 5.003519
+    },
+    {
+      "month": "2003-11",
+      "gold_average_usd_per_ounce": 390.380646,
+      "silver_average_usd_per_ounce": 5.1986
+    },
+    {
+      "month": "2003-12",
+      "gold_average_usd_per_ounce": 407.971222,
+      "silver_average_usd_per_ounce": 5.638846
+    },
+    {
+      "month": "2004-01",
+      "gold_average_usd_per_ounce": 414.279358,
+      "silver_average_usd_per_ounce": 6.346731
+    },
+    {
+      "month": "2004-02",
+      "gold_average_usd_per_ounce": 405.00061,
+      "silver_average_usd_per_ounce": 6.4692
+    },
+    {
+      "month": "2004-03",
+      "gold_average_usd_per_ounce": 406.991516,
+      "silver_average_usd_per_ounce": 7.25537
+    },
+    {
+      "month": "2004-04",
+      "gold_average_usd_per_ounce": 405.303253,
+      "silver_average_usd_per_ounce": 7.1744
+    },
+    {
+      "month": "2004-05",
+      "gold_average_usd_per_ounce": 384.702698,
+      "silver_average_usd_per_ounce": 5.898462
+    },
+    {
+      "month": "2004-06",
+      "gold_average_usd_per_ounce": 392.646393,
+      "silver_average_usd_per_ounce": 5.879423
+    },
+    {
+      "month": "2004-07",
+      "gold_average_usd_per_ounce": 398.415741,
+      "silver_average_usd_per_ounce": 6.330962
+    },
+    {
+      "month": "2004-08",
+      "gold_average_usd_per_ounce": 401.212463,
+      "silver_average_usd_per_ounce": 6.683333
+    },
+    {
+      "month": "2004-09",
+      "gold_average_usd_per_ounce": 405.424988,
+      "silver_average_usd_per_ounce": 6.387885
+    },
+    {
+      "month": "2004-10",
+      "gold_average_usd_per_ounce": 420.90863,
+      "silver_average_usd_per_ounce": 7.122885
+    },
+    {
+      "month": "2004-11",
+      "gold_average_usd_per_ounce": 439.785217,
+      "silver_average_usd_per_ounce": 7.515481
+    },
+    {
+      "month": "2004-12",
+      "gold_average_usd_per_ounce": 442.033905,
+      "silver_average_usd_per_ounce": 7.111667
+    },
+    {
+      "month": "2005-01",
+      "gold_average_usd_per_ounce": 425.350616,
+      "silver_average_usd_per_ounce": 6.654444
+    },
+    {
+      "month": "2005-02",
+      "gold_average_usd_per_ounce": 423.737793,
+      "silver_average_usd_per_ounce": 7.059167
+    },
+    {
+      "month": "2005-03",
+      "gold_average_usd_per_ounce": 433.714691,
+      "silver_average_usd_per_ounce": 7.25625
+    },
+    {
+      "month": "2005-04",
+      "gold_average_usd_per_ounce": 429.277313,
+      "silver_average_usd_per_ounce": 7.125
+    },
+    {
+      "month": "2005-05",
+      "gold_average_usd_per_ounce": 422.292908,
+      "silver_average_usd_per_ounce": 7.043796
+    },
+    {
+      "month": "2005-06",
+      "gold_average_usd_per_ounce": 431.000763,
+      "silver_average_usd_per_ounce": 7.325385
+    },
+    {
+      "month": "2005-07",
+      "gold_average_usd_per_ounce": 424.788116,
+      "silver_average_usd_per_ounce": 7.033
+    },
+    {
+      "month": "2005-08",
+      "gold_average_usd_per_ounce": 438.15744,
+      "silver_average_usd_per_ounce": 7.041574
+    },
+    {
+      "month": "2005-09",
+      "gold_average_usd_per_ounce": 456.255066,
+      "silver_average_usd_per_ounce": 7.166154
+    },
+    {
+      "month": "2005-10",
+      "gold_average_usd_per_ounce": 470.220795,
+      "silver_average_usd_per_ounce": 7.681885
+    },
+    {
+      "month": "2005-11",
+      "gold_average_usd_per_ounce": 476.854401,
+      "silver_average_usd_per_ounce": 7.889615
+    },
+    {
+      "month": "2005-12",
+      "gold_average_usd_per_ounce": 509.49646,
+      "silver_average_usd_per_ounce": 8.675769
+    },
+    {
+      "month": "2006-01",
+      "gold_average_usd_per_ounce": 550.407288,
+      "silver_average_usd_per_ounce": 9.272296
+    },
+    {
+      "month": "2006-02",
+      "gold_average_usd_per_ounce": 555.479431,
+      "silver_average_usd_per_ounce": 9.557187
+    },
+    {
+      "month": "2006-03",
+      "gold_average_usd_per_ounce": 557.33905,
+      "silver_average_usd_per_ounce": 10.393352
+    },
+    {
+      "month": "2006-04",
+      "gold_average_usd_per_ounce": 610.363098,
+      "silver_average_usd_per_ounce": 12.786687
+    },
+    {
+      "month": "2006-05",
+      "gold_average_usd_per_ounce": 673.28125,
+      "silver_average_usd_per_ounce": 13.495926
+    },
+    {
+      "month": "2006-06",
+      "gold_average_usd_per_ounce": 597.006042,
+      "silver_average_usd_per_ounce": 10.845577
+    },
+    {
+      "month": "2006-07",
+      "gold_average_usd_per_ounce": 634.285645,
+      "silver_average_usd_per_ounce": 11.265385
+    },
+    {
+      "month": "2006-08",
+      "gold_average_usd_per_ounce": 632.314575,
+      "silver_average_usd_per_ounce": 12.216815
+    },
+    {
+      "month": "2006-09",
+      "gold_average_usd_per_ounce": 598.677368,
+      "silver_average_usd_per_ounce": 11.7184
+    },
+    {
+      "month": "2006-10",
+      "gold_average_usd_per_ounce": 586.592468,
+      "silver_average_usd_per_ounce": 11.612963
+    },
+    {
+      "month": "2006-11",
+      "gold_average_usd_per_ounce": 628.267883,
+      "silver_average_usd_per_ounce": 12.96
+    },
+    {
+      "month": "2006-12",
+      "gold_average_usd_per_ounce": 628.720032,
+      "silver_average_usd_per_ounce": 13.313192
+    },
+    {
+      "month": "2007-01",
+      "gold_average_usd_per_ounce": 631.256226,
+      "silver_average_usd_per_ounce": 12.880667
+    },
+    {
+      "month": "2007-02",
+      "gold_average_usd_per_ounce": 665.282104,
+      "silver_average_usd_per_ounce": 13.935542
+    },
+    {
+      "month": "2007-03",
+      "gold_average_usd_per_ounce": 654.930115,
+      "silver_average_usd_per_ounce": 13.180769
+    },
+    {
+      "month": "2007-04",
+      "gold_average_usd_per_ounce": 679.427002,
+      "silver_average_usd_per_ounce": 13.76716
+    },
+    {
+      "month": "2007-05",
+      "gold_average_usd_per_ounce": 667.667847,
+      "silver_average_usd_per_ounce": 13.177259
+    },
+    {
+      "month": "2007-06",
+      "gold_average_usd_per_ounce": 655.95874,
+      "silver_average_usd_per_ounce": 13.18172
+    },
+    {
+      "month": "2007-07",
+      "gold_average_usd_per_ounce": 665.707764,
+      "silver_average_usd_per_ounce": 12.922704
+    },
+    {
+      "month": "2007-08",
+      "gold_average_usd_per_ounce": 665.568237,
+      "silver_average_usd_per_ounce": 12.367
+    },
+    {
+      "month": "2007-09",
+      "gold_average_usd_per_ounce": 713.149658,
+      "silver_average_usd_per_ounce": 12.87812
+    },
+    {
+      "month": "2007-10",
+      "gold_average_usd_per_ounce": 755.185364,
+      "silver_average_usd_per_ounce": 13.703963
+    },
+    {
+      "month": "2007-11",
+      "gold_average_usd_per_ounce": 807.28241,
+      "silver_average_usd_per_ounce": 14.747615
+    },
+    {
+      "month": "2007-12",
+      "gold_average_usd_per_ounce": 806.397156,
+      "silver_average_usd_per_ounce": 14.370462
+    },
+    {
+      "month": "2008-01",
+      "gold_average_usd_per_ounce": 888.108643,
+      "silver_average_usd_per_ounce": 15.964741
+    },
+    {
+      "month": "2008-02",
+      "gold_average_usd_per_ounce": 922.548035,
+      "silver_average_usd_per_ounce": 17.554319
+    },
+    {
+      "month": "2008-03",
+      "gold_average_usd_per_ounce": 965.076111,
+      "silver_average_usd_per_ounce": 19.4568
+    },
+    {
+      "month": "2008-04",
+      "gold_average_usd_per_ounce": 910.684814,
+      "silver_average_usd_per_ounce": 17.549076
+    },
+    {
+      "month": "2008-05",
+      "gold_average_usd_per_ounce": 889.905579,
+      "silver_average_usd_per_ounce": 17.158115
+    },
+    {
+      "month": "2008-06",
+      "gold_average_usd_per_ounce": 891.391541,
+      "silver_average_usd_per_ounce": 17.07
+    },
+    {
+      "month": "2008-07",
+      "gold_average_usd_per_ounce": 940.801514,
+      "silver_average_usd_per_ounce": 18.079926
+    },
+    {
+      "month": "2008-08",
+      "gold_average_usd_per_ounce": 839.508118,
+      "silver_average_usd_per_ounce": 14.663192
+    },
+    {
+      "month": "2008-09",
+      "gold_average_usd_per_ounce": 832.422668,
+      "silver_average_usd_per_ounce": 12.428231
+    },
+    {
+      "month": "2008-10",
+      "gold_average_usd_per_ounce": 808.20105,
+      "silver_average_usd_per_ounce": 10.445833
+    },
+    {
+      "month": "2008-11",
+      "gold_average_usd_per_ounce": 763.108093,
+      "silver_average_usd_per_ounce": 9.95346
+    },
+    {
+      "month": "2008-12",
+      "gold_average_usd_per_ounce": 823.482422,
+      "silver_average_usd_per_ounce": 10.392615
+    },
+    {
+      "month": "2009-01",
+      "gold_average_usd_per_ounce": 860.574768,
+      "silver_average_usd_per_ounce": 11.479692
+    },
+    {
+      "month": "2009-02",
+      "gold_average_usd_per_ounce": 943.739441,
+      "silver_average_usd_per_ounce": 13.433563
+    },
+    {
+      "month": "2009-03",
+      "gold_average_usd_per_ounce": 925.605896,
+      "silver_average_usd_per_ounce": 13.181204
+    },
+    {
+      "month": "2009-04",
+      "gold_average_usd_per_ounce": 890.303772,
+      "silver_average_usd_per_ounce": 12.5709
+    },
+    {
+      "month": "2009-05",
+      "gold_average_usd_per_ounce": 929.468018,
+      "silver_average_usd_per_ounce": 14.114673
+    },
+    {
+      "month": "2009-06",
+      "gold_average_usd_per_ounce": 945.578491,
+      "silver_average_usd_per_ounce": 14.657077
+    },
+    {
+      "month": "2009-07",
+      "gold_average_usd_per_ounce": 934.896851,
+      "silver_average_usd_per_ounce": 13.388741
+    },
+    {
+      "month": "2009-08",
+      "gold_average_usd_per_ounce": 950.442322,
+      "silver_average_usd_per_ounce": 14.437096
+    },
+    {
+      "month": "2009-09",
+      "gold_average_usd_per_ounce": 997.072571,
+      "silver_average_usd_per_ounce": 16.427326
+    },
+    {
+      "month": "2009-10",
+      "gold_average_usd_per_ounce": 1043.763306,
+      "silver_average_usd_per_ounce": 17.28598
+    },
+    {
+      "month": "2009-11",
+      "gold_average_usd_per_ounce": 1129.240845,
+      "silver_average_usd_per_ounce": 17.869846
+    },
+    {
+      "month": "2009-12",
+      "gold_average_usd_per_ounce": 1126.819214,
+      "silver_average_usd_per_ounce": 17.682232
+    },
+    {
+      "month": "2010-01",
+      "gold_average_usd_per_ounce": 1117.657227,
+      "silver_average_usd_per_ounce": 17.887213
+    },
+    {
+      "month": "2010-02",
+      "gold_average_usd_per_ounce": 1096.524902,
+      "silver_average_usd_per_ounce": 15.904604
+    },
+    {
+      "month": "2010-03",
+      "gold_average_usd_per_ounce": 1113.680176,
+      "silver_average_usd_per_ounce": 17.131851
+    },
+    {
+      "month": "2010-04",
+      "gold_average_usd_per_ounce": 1146.917969,
+      "silver_average_usd_per_ounce": 18.11904
+    },
+    {
+      "month": "2010-05",
+      "gold_average_usd_per_ounce": 1204.981079,
+      "silver_average_usd_per_ounce": 18.503307
+    },
+    {
+      "month": "2010-06",
+      "gold_average_usd_per_ounce": 1234.460449,
+      "silver_average_usd_per_ounce": 18.521364
+    },
+    {
+      "month": "2010-07",
+      "gold_average_usd_per_ounce": 1193.922974,
+      "silver_average_usd_per_ounce": 17.975191
+    },
+    {
+      "month": "2010-08",
+      "gold_average_usd_per_ounce": 1217.515625,
+      "silver_average_usd_per_ounce": 18.438499
+    },
+    {
+      "month": "2010-09",
+      "gold_average_usd_per_ounce": 1270.995605,
+      "silver_average_usd_per_ounce": 20.571941
+    },
+    {
+      "month": "2010-10",
+      "gold_average_usd_per_ounce": 1343.194824,
+      "silver_average_usd_per_ounce": 23.482231
+    },
+    {
+      "month": "2010-11",
+      "gold_average_usd_per_ounce": 1370.812012,
+      "silver_average_usd_per_ounce": 26.665789
+    },
+    {
+      "month": "2010-12",
+      "gold_average_usd_per_ounce": 1389.910767,
+      "silver_average_usd_per_ounce": 29.487648
+    },
+    {
+      "month": "2011-01",
+      "gold_average_usd_per_ounce": 1364.598633,
+      "silver_average_usd_per_ounce": 28.87052
+    },
+    {
+      "month": "2011-02",
+      "gold_average_usd_per_ounce": 1373.984253,
+      "silver_average_usd_per_ounce": 30.99102
+    },
+    {
+      "month": "2011-03",
+      "gold_average_usd_per_ounce": 1424.912476,
+      "silver_average_usd_per_ounce": 35.947227
+    },
+    {
+      "month": "2011-04",
+      "gold_average_usd_per_ounce": 1479.93042,
+      "silver_average_usd_per_ounce": 42.45499
+    },
+    {
+      "month": "2011-05",
+      "gold_average_usd_per_ounce": 1513.144897,
+      "silver_average_usd_per_ounce": 37.584969
+    },
+    {
+      "month": "2011-06",
+      "gold_average_usd_per_ounce": 1529.185547,
+      "silver_average_usd_per_ounce": 35.831402
+    },
+    {
+      "month": "2011-07",
+      "gold_average_usd_per_ounce": 1573.917847,
+      "silver_average_usd_per_ounce": 38.047085
+    },
+    {
+      "month": "2011-08",
+      "gold_average_usd_per_ounce": 1760.407837,
+      "silver_average_usd_per_ounce": 40.531368
+    },
+    {
+      "month": "2011-09",
+      "gold_average_usd_per_ounce": 1775.341797,
+      "silver_average_usd_per_ounce": 38.315544
+    },
+    {
+      "month": "2011-10",
+      "gold_average_usd_per_ounce": 1667.716919,
+      "silver_average_usd_per_ounce": 32.131317
+    },
+    {
+      "month": "2011-11",
+      "gold_average_usd_per_ounce": 1740.739502,
+      "silver_average_usd_per_ounce": 33.171886
+    },
+    {
+      "month": "2011-12",
+      "gold_average_usd_per_ounce": 1643.312256,
+      "silver_average_usd_per_ounce": 30.451628
+    },
+    {
+      "month": "2012-01",
+      "gold_average_usd_per_ounce": 1653.307007,
+      "silver_average_usd_per_ounce": 30.878885
+    },
+    {
+      "month": "2012-02",
+      "gold_average_usd_per_ounce": 1743.044189,
+      "silver_average_usd_per_ounce": 34.166458
+    },
+    {
+      "month": "2012-03",
+      "gold_average_usd_per_ounce": 1675.906128,
+      "silver_average_usd_per_ounce": 33.087887
+    },
+    {
+      "month": "2012-04",
+      "gold_average_usd_per_ounce": 1648.789185,
+      "silver_average_usd_per_ounce": 31.665152
+    },
+    {
+      "month": "2012-05",
+      "gold_average_usd_per_ounce": 1589.216797,
+      "silver_average_usd_per_ounce": 28.809099
+    },
+    {
+      "month": "2012-06",
+      "gold_average_usd_per_ounce": 1598.990356,
+      "silver_average_usd_per_ounce": 28.233484
+    },
+    {
+      "month": "2012-07",
+      "gold_average_usd_per_ounce": 1594.494629,
+      "silver_average_usd_per_ounce": 27.470282
+    },
+    {
+      "month": "2012-08",
+      "gold_average_usd_per_ounce": 1628.403809,
+      "silver_average_usd_per_ounce": 28.839331
+    },
+    {
+      "month": "2012-09",
+      "gold_average_usd_per_ounce": 1745.651001,
+      "silver_average_usd_per_ounce": 33.731503
+    },
+    {
+      "month": "2012-10",
+      "gold_average_usd_per_ounce": 1747.000854,
+      "silver_average_usd_per_ounce": 33.185543
+    },
+    {
+      "month": "2012-11",
+      "gold_average_usd_per_ounce": 1721.723389,
+      "silver_average_usd_per_ounce": 32.787651
+    },
+    {
+      "month": "2012-12",
+      "gold_average_usd_per_ounce": 1683.450317,
+      "silver_average_usd_per_ounce": 31.864992
+    },
+    {
+      "month": "2013-01",
+      "gold_average_usd_per_ounce": 1670.606323,
+      "silver_average_usd_per_ounce": 30.865955
+    },
+    {
+      "month": "2013-02",
+      "gold_average_usd_per_ounce": 1628.774658,
+      "silver_average_usd_per_ounce": 30.394209
+    },
+    {
+      "month": "2013-03",
+      "gold_average_usd_per_ounce": 1593.735107,
+      "silver_average_usd_per_ounce": 28.814432
+    },
+    {
+      "month": "2013-04",
+      "gold_average_usd_per_ounce": 1490.92334,
+      "silver_average_usd_per_ounce": 25.355453
+    },
+    {
+      "month": "2013-05",
+      "gold_average_usd_per_ounce": 1416.197144,
+      "silver_average_usd_per_ounce": 23.124174
+    },
+    {
+      "month": "2013-06",
+      "gold_average_usd_per_ounce": 1343.477417,
+      "silver_average_usd_per_ounce": 21.190405
+    },
+    {
+      "month": "2013-07",
+      "gold_average_usd_per_ounce": 1287.984619,
+      "silver_average_usd_per_ounce": 19.76593
+    },
+    {
+      "month": "2013-08",
+      "gold_average_usd_per_ounce": 1349.830322,
+      "silver_average_usd_per_ounce": 22.033607
+    },
+    {
+      "month": "2013-09",
+      "gold_average_usd_per_ounce": 1349.195068,
+      "silver_average_usd_per_ounce": 22.64522
+    },
+    {
+      "month": "2013-10",
+      "gold_average_usd_per_ounce": 1317.003418,
+      "silver_average_usd_per_ounce": 21.9727
+    },
+    {
+      "month": "2013-11",
+      "gold_average_usd_per_ounce": 1276.952637,
+      "silver_average_usd_per_ounce": 20.819752
+    },
+    {
+      "month": "2013-12",
+      "gold_average_usd_per_ounce": 1221.578369,
+      "silver_average_usd_per_ounce": 19.718037
+    },
+    {
+      "month": "2014-01",
+      "gold_average_usd_per_ounce": 1244.507935,
+      "silver_average_usd_per_ounce": 19.940826
+    },
+    {
+      "month": "2014-02",
+      "gold_average_usd_per_ounce": 1301.167114,
+      "silver_average_usd_per_ounce": 20.860825
+    },
+    {
+      "month": "2014-03",
+      "gold_average_usd_per_ounce": 1337.040405,
+      "silver_average_usd_per_ounce": 20.776304
+    },
+    {
+      "month": "2014-04",
+      "gold_average_usd_per_ounce": 1299.979736,
+      "silver_average_usd_per_ounce": 19.735468
+    },
+    {
+      "month": "2014-05",
+      "gold_average_usd_per_ounce": 1288.882935,
+      "silver_average_usd_per_ounce": 19.422173
+    },
+    {
+      "month": "2014-06",
+      "gold_average_usd_per_ounce": 1280.67981,
+      "silver_average_usd_per_ounce": 19.824623
+    },
+    {
+      "month": "2014-07",
+      "gold_average_usd_per_ounce": 1311.85144,
+      "silver_average_usd_per_ounce": 20.953493
+    },
+    {
+      "month": "2014-08",
+      "gold_average_usd_per_ounce": 1295.284424,
+      "silver_average_usd_per_ounce": 19.808626
+    },
+    {
+      "month": "2014-09",
+      "gold_average_usd_per_ounce": 1238.766235,
+      "silver_average_usd_per_ounce": 18.475965
+    },
+    {
+      "month": "2014-10",
+      "gold_average_usd_per_ounce": 1223.242798,
+      "silver_average_usd_per_ounce": 17.226404
+    },
+    {
+      "month": "2014-11",
+      "gold_average_usd_per_ounce": 1178.277344,
+      "silver_average_usd_per_ounce": 16.055916
+    },
+    {
+      "month": "2014-12",
+      "gold_average_usd_per_ounce": 1199.790527,
+      "silver_average_usd_per_ounce": 16.280365
+    },
+    {
+      "month": "2015-01",
+      "gold_average_usd_per_ounce": 1250.316528,
+      "silver_average_usd_per_ounce": 17.085735
+    },
+    {
+      "month": "2015-02",
+      "gold_average_usd_per_ounce": 1227.417969,
+      "silver_average_usd_per_ounce": 16.891867
+    },
+    {
+      "month": "2015-03",
+      "gold_average_usd_per_ounce": 1178.981934,
+      "silver_average_usd_per_ounce": 16.280371
+    },
+    {
+      "month": "2015-04",
+      "gold_average_usd_per_ounce": 1199.194458,
+      "silver_average_usd_per_ounce": 16.405443
+    },
+    {
+      "month": "2015-05",
+      "gold_average_usd_per_ounce": 1199.032104,
+      "silver_average_usd_per_ounce": 16.868158
+    },
+    {
+      "month": "2015-06",
+      "gold_average_usd_per_ounce": 1182.159424,
+      "silver_average_usd_per_ounce": 16.112377
+    },
+    {
+      "month": "2015-07",
+      "gold_average_usd_per_ounce": 1131.189331,
+      "silver_average_usd_per_ounce": 15.121811
+    },
+    {
+      "month": "2015-08",
+      "gold_average_usd_per_ounce": 1119.263794,
+      "silver_average_usd_per_ounce": 14.972985
+    },
+    {
+      "month": "2015-09",
+      "gold_average_usd_per_ounce": 1125.077637,
+      "silver_average_usd_per_ounce": 14.750985
+    },
+    {
+      "month": "2015-10",
+      "gold_average_usd_per_ounce": 1159.712769,
+      "silver_average_usd_per_ounce": 15.746535
+    },
+    {
+      "month": "2015-11",
+      "gold_average_usd_per_ounce": 1085.929443,
+      "silver_average_usd_per_ounce": 14.534015
+    },
+    {
+      "month": "2015-12",
+      "gold_average_usd_per_ounce": 1069.07373,
+      "silver_average_usd_per_ounce": 14.100273
+    },
+    {
+      "month": "2016-01",
+      "gold_average_usd_per_ounce": 1096.628174,
+      "silver_average_usd_per_ounce": 14.17265
+    },
+    {
+      "month": "2016-02",
+      "gold_average_usd_per_ounce": 1202.185791,
+      "silver_average_usd_per_ounce": 15.116676
+    },
+    {
+      "month": "2016-03",
+      "gold_average_usd_per_ounce": 1244.888794,
+      "silver_average_usd_per_ounce": 15.46535
+    },
+    {
+      "month": "2016-04",
+      "gold_average_usd_per_ounce": 1242.20166,
+      "silver_average_usd_per_ounce": 16.238979
+    },
+    {
+      "month": "2016-05",
+      "gold_average_usd_per_ounce": 1258.928589,
+      "silver_average_usd_per_ounce": 16.938625
+    },
+    {
+      "month": "2016-06",
+      "gold_average_usd_per_ounce": 1277.735229,
+      "silver_average_usd_per_ounce": 17.213135
+    },
+    {
+      "month": "2016-07",
+      "gold_average_usd_per_ounce": 1338.626831,
+      "silver_average_usd_per_ounce": 20.035734
+    },
+    {
+      "month": "2016-08",
+      "gold_average_usd_per_ounce": 1339.905151,
+      "silver_average_usd_per_ounce": 19.599733
+    },
+    {
+      "month": "2016-09",
+      "gold_average_usd_per_ounce": 1326.373779,
+      "silver_average_usd_per_ounce": 19.310286
+    },
+    {
+      "month": "2016-10",
+      "gold_average_usd_per_ounce": 1267.848389,
+      "silver_average_usd_per_ounce": 17.804838
+    },
+    {
+      "month": "2016-11",
+      "gold_average_usd_per_ounce": 1236.209351,
+      "silver_average_usd_per_ounce": 17.412228
+    },
+    {
+      "month": "2016-12",
+      "gold_average_usd_per_ounce": 1149.687866,
+      "silver_average_usd_per_ounce": 16.404951
+    },
+    {
+      "month": "2017-01",
+      "gold_average_usd_per_ounce": 1192.96936,
+      "silver_average_usd_per_ounce": 16.841208
+    },
+    {
+      "month": "2017-02",
+      "gold_average_usd_per_ounce": 1235.141846,
+      "silver_average_usd_per_ounce": 17.908812
+    },
+    {
+      "month": "2017-03",
+      "gold_average_usd_per_ounce": 1231.511597,
+      "silver_average_usd_per_ounce": 17.601381
+    },
+    {
+      "month": "2017-04",
+      "gold_average_usd_per_ounce": 1268.019775,
+      "silver_average_usd_per_ounce": 18.072412
+    },
+    {
+      "month": "2017-05",
+      "gold_average_usd_per_ounce": 1247.174194,
+      "silver_average_usd_per_ounce": 16.833303
+    },
+    {
+      "month": "2017-06",
+      "gold_average_usd_per_ounce": 1260.817871,
+      "silver_average_usd_per_ounce": 16.970207
+    },
+    {
+      "month": "2017-07",
+      "gold_average_usd_per_ounce": 1237.15332,
+      "silver_average_usd_per_ounce": 16.196173
+    },
+    {
+      "month": "2017-08",
+      "gold_average_usd_per_ounce": 1282.985474,
+      "silver_average_usd_per_ounce": 16.955755
+    },
+    {
+      "month": "2017-09",
+      "gold_average_usd_per_ounce": 1316.246948,
+      "silver_average_usd_per_ounce": 17.485788
+    },
+    {
+      "month": "2017-10",
+      "gold_average_usd_per_ounce": 1280.256592,
+      "silver_average_usd_per_ounce": 16.956568
+    },
+    {
+      "month": "2017-11",
+      "gold_average_usd_per_ounce": 1282.857422,
+      "silver_average_usd_per_ounce": 17.03677
+    },
+    {
+      "month": "2017-12",
+      "gold_average_usd_per_ounce": 1263.330811,
+      "silver_average_usd_per_ounce": 16.20183
+    },
+    {
+      "month": "2018-01",
+      "gold_average_usd_per_ounce": 1330.639038,
+      "silver_average_usd_per_ounce": 17.137049
+    },
+    {
+      "month": "2018-02",
+      "gold_average_usd_per_ounce": 1332.296631,
+      "silver_average_usd_per_ounce": 16.675783
+    },
+    {
+      "month": "2018-03",
+      "gold_average_usd_per_ounce": 1325.233887,
+      "silver_average_usd_per_ounce": 16.490036
+    },
+    {
+      "month": "2018-04",
+      "gold_average_usd_per_ounce": 1334.520874,
+      "silver_average_usd_per_ounce": 16.633873
+    },
+    {
+      "month": "2018-05",
+      "gold_average_usd_per_ounce": 1303.79895,
+      "silver_average_usd_per_ounce": 16.489285
+    },
+    {
+      "month": "2018-06",
+      "gold_average_usd_per_ounce": 1282.205444,
+      "silver_average_usd_per_ounce": 16.544376
+    },
+    {
+      "month": "2018-07",
+      "gold_average_usd_per_ounce": 1238.885864,
+      "silver_average_usd_per_ounce": 15.738796
+    },
+    {
+      "month": "2018-08",
+      "gold_average_usd_per_ounce": 1201.722656,
+      "silver_average_usd_per_ounce": 15.026515
+    },
+    {
+      "month": "2018-09",
+      "gold_average_usd_per_ounce": 1198.740356,
+      "silver_average_usd_per_ounce": 14.2959
+    },
+    {
+      "month": "2018-10",
+      "gold_average_usd_per_ounce": 1216.210083,
+      "silver_average_usd_per_ounce": 14.604533
+    },
+    {
+      "month": "2018-11",
+      "gold_average_usd_per_ounce": 1221.287231,
+      "silver_average_usd_per_ounce": 14.382015
+    },
+    {
+      "month": "2018-12",
+      "gold_average_usd_per_ounce": 1251.649292,
+      "silver_average_usd_per_ounce": 14.765131
+    },
+    {
+      "month": "2019-01",
+      "gold_average_usd_per_ounce": 1291.545776,
+      "silver_average_usd_per_ounce": 15.622863
+    },
+    {
+      "month": "2019-02",
+      "gold_average_usd_per_ounce": 1320.388672,
+      "silver_average_usd_per_ounce": 15.823292
+    },
+    {
+      "month": "2019-03",
+      "gold_average_usd_per_ounce": 1301.327881,
+      "silver_average_usd_per_ounce": 15.330415
+    },
+    {
+      "month": "2019-04",
+      "gold_average_usd_per_ounce": 1286.338379,
+      "silver_average_usd_per_ounce": 15.055172
+    },
+    {
+      "month": "2019-05",
+      "gold_average_usd_per_ounce": 1284.177734,
+      "silver_average_usd_per_ounce": 14.650919
+    },
+    {
+      "month": "2019-06",
+      "gold_average_usd_per_ounce": 1360.089844,
+      "silver_average_usd_per_ounce": 15.018252
+    },
+    {
+      "month": "2019-07",
+      "gold_average_usd_per_ounce": 1413.647583,
+      "silver_average_usd_per_ounce": 15.762133
+    },
+    {
+      "month": "2019-08",
+      "gold_average_usd_per_ounce": 1500.273682,
+      "silver_average_usd_per_ounce": 17.183685
+    },
+    {
+      "month": "2019-09",
+      "gold_average_usd_per_ounce": 1511.508789,
+      "silver_average_usd_per_ounce": 18.183716
+    },
+    {
+      "month": "2019-10",
+      "gold_average_usd_per_ounce": 1495.480103,
+      "silver_average_usd_per_ounce": 17.656626
+    },
+    {
+      "month": "2019-11",
+      "gold_average_usd_per_ounce": 1470.853882,
+      "silver_average_usd_per_ounce": 17.199699
+    },
+    {
+      "month": "2019-12",
+      "gold_average_usd_per_ounce": 1478.352661,
+      "silver_average_usd_per_ounce": 17.204693
+    },
+    {
+      "month": "2020-01",
+      "gold_average_usd_per_ounce": 1560.977051,
+      "silver_average_usd_per_ounce": 18.107201
+    },
+    {
+      "month": "2020-02",
+      "gold_average_usd_per_ounce": 1598.311157,
+      "silver_average_usd_per_ounce": 17.967604
+    },
+    {
+      "month": "2020-03",
+      "gold_average_usd_per_ounce": 1594.068481,
+      "silver_average_usd_per_ounce": 15.036022
+    },
+    {
+      "month": "2020-04",
+      "gold_average_usd_per_ounce": 1684.834595,
+      "silver_average_usd_per_ounce": 15.115852
+    },
+    {
+      "month": "2020-05",
+      "gold_average_usd_per_ounce": 1718.439331,
+      "silver_average_usd_per_ounce": 16.389269
+    },
+    {
+      "month": "2020-06",
+      "gold_average_usd_per_ounce": 1733.143677,
+      "silver_average_usd_per_ounce": 17.738043
+    },
+    {
+      "month": "2020-07",
+      "gold_average_usd_per_ounce": 1843.259399,
+      "silver_average_usd_per_ounce": 20.430222
+    },
+    {
+      "month": "2020-08",
+      "gold_average_usd_per_ounce": 1970.975952,
+      "silver_average_usd_per_ounce": 27.088987
+    },
+    {
+      "month": "2020-09",
+      "gold_average_usd_per_ounce": 1923.31958,
+      "silver_average_usd_per_ounce": 25.948877
+    },
+    {
+      "month": "2020-10",
+      "gold_average_usd_per_ounce": 1901.878418,
+      "silver_average_usd_per_ounce": 24.351442
+    },
+    {
+      "month": "2020-11",
+      "gold_average_usd_per_ounce": 1865.193848,
+      "silver_average_usd_per_ounce": 24.127478
+    },
+    {
+      "month": "2020-12",
+      "gold_average_usd_per_ounce": 1859.854736,
+      "silver_average_usd_per_ounce": 25.094261
+    },
+    {
+      "month": "2021-01",
+      "gold_average_usd_per_ounce": 1868.434326,
+      "silver_average_usd_per_ounce": 26.083456
+    },
+    {
+      "month": "2021-02",
+      "gold_average_usd_per_ounce": 1808.328247,
+      "silver_average_usd_per_ounce": 27.403257
+    },
+    {
+      "month": "2021-03",
+      "gold_average_usd_per_ounce": 1719.347656,
+      "silver_average_usd_per_ounce": 25.655647
+    },
+    {
+      "month": "2021-04",
+      "gold_average_usd_per_ounce": 1760.263428,
+      "silver_average_usd_per_ounce": 25.636652
+    },
+    {
+      "month": "2021-05",
+      "gold_average_usd_per_ounce": 1853.279785,
+      "silver_average_usd_per_ounce": 27.564968
+    },
+    {
+      "month": "2021-06",
+      "gold_average_usd_per_ounce": 1834.83374,
+      "silver_average_usd_per_ounce": 26.995485
+    },
+    {
+      "month": "2021-07",
+      "gold_average_usd_per_ounce": 1807.249268,
+      "silver_average_usd_per_ounce": 25.795103
+    },
+    {
+      "month": "2021-08",
+      "gold_average_usd_per_ounce": 1785.308838,
+      "silver_average_usd_per_ounce": 24.087606
+    },
+    {
+      "month": "2021-09",
+      "gold_average_usd_per_ounce": 1778.197632,
+      "silver_average_usd_per_ounce": 23.33877
+    },
+    {
+      "month": "2021-10",
+      "gold_average_usd_per_ounce": 1777.397827,
+      "silver_average_usd_per_ounce": 23.346231
+    },
+    {
+      "month": "2021-11",
+      "gold_average_usd_per_ounce": 1821.599243,
+      "silver_average_usd_per_ounce": 24.251785
+    },
+    {
+      "month": "2021-12",
+      "gold_average_usd_per_ounce": 1789.411865,
+      "silver_average_usd_per_ounce": 22.555893
+    },
+    {
+      "month": "2022-01",
+      "gold_average_usd_per_ounce": 1816.9104,
+      "silver_average_usd_per_ounce": 23.141191
+    },
+    {
+      "month": "2022-02",
+      "gold_average_usd_per_ounce": 1858.71521,
+      "silver_average_usd_per_ounce": 23.544292
+    },
+    {
+      "month": "2022-03",
+      "gold_average_usd_per_ounce": 1949.797485,
+      "silver_average_usd_per_ounce": 25.312748
+    },
+    {
+      "month": "2022-04",
+      "gold_average_usd_per_ounce": 1937.600708,
+      "silver_average_usd_per_ounce": 24.801273
+    },
+    {
+      "month": "2022-05",
+      "gold_average_usd_per_ounce": 1850.654175,
+      "silver_average_usd_per_ounce": 22.204399
+    },
+    {
+      "month": "2022-06",
+      "gold_average_usd_per_ounce": 1836.258911,
+      "silver_average_usd_per_ounce": 21.744656
+    },
+    {
+      "month": "2022-07",
+      "gold_average_usd_per_ounce": 1738.654297,
+      "silver_average_usd_per_ounce": 19.378229
+    },
+    {
+      "month": "2022-08",
+      "gold_average_usd_per_ounce": 1765.848511,
+      "silver_average_usd_per_ounce": 19.8673
+    },
+    {
+      "month": "2022-09",
+      "gold_average_usd_per_ounce": 1683.574097,
+      "silver_average_usd_per_ounce": 19.236876
+    },
+    {
+      "month": "2022-10",
+      "gold_average_usd_per_ounce": 1665.795776,
+      "silver_average_usd_per_ounce": 19.770063
+    },
+    {
+      "month": "2022-11",
+      "gold_average_usd_per_ounce": 1727.822388,
+      "silver_average_usd_per_ounce": 21.502958
+    },
+    {
+      "month": "2022-12",
+      "gold_average_usd_per_ounce": 1797.794189,
+      "silver_average_usd_per_ounce": 23.726311
+    },
+    {
+      "month": "2023-01",
+      "gold_average_usd_per_ounce": 1898.649536,
+      "silver_average_usd_per_ounce": 24.101131
+    },
+    {
+      "month": "2023-02",
+      "gold_average_usd_per_ounce": 1854.501221,
+      "silver_average_usd_per_ounce": 22.118574
+    },
+    {
+      "month": "2023-03",
+      "gold_average_usd_per_ounce": 1914.916626,
+      "silver_average_usd_per_ounce": 22.289886
+    },
+    {
+      "month": "2023-04",
+      "gold_average_usd_per_ounce": 2000.667358,
+      "silver_average_usd_per_ounce": 25.258358
+    },
+    {
+      "month": "2023-05",
+      "gold_average_usd_per_ounce": 1989.929932,
+      "silver_average_usd_per_ounce": 24.338661
+    },
+    {
+      "month": "2023-06",
+      "gold_average_usd_per_ounce": 1943.966797,
+      "silver_average_usd_per_ounce": 23.578842
+    },
+    {
+      "month": "2023-07",
+      "gold_average_usd_per_ounce": 1947.800171,
+      "silver_average_usd_per_ounce": 24.220068
+    },
+    {
+      "month": "2023-08",
+      "gold_average_usd_per_ounce": 1920.910156,
+      "silver_average_usd_per_ounce": 23.592623
+    },
+    {
+      "month": "2023-09",
+      "gold_average_usd_per_ounce": 1919.644287,
+      "silver_average_usd_per_ounce": 23.290243
+    },
+    {
+      "month": "2023-10",
+      "gold_average_usd_per_ounce": 1918.099487,
+      "silver_average_usd_per_ounce": 22.575039
+    },
+    {
+      "month": "2023-11",
+      "gold_average_usd_per_ounce": 1985.408936,
+      "silver_average_usd_per_ounce": 23.633724
+    },
+    {
+      "month": "2023-12",
+      "gold_average_usd_per_ounce": 2037.752197,
+      "silver_average_usd_per_ounce": 24.168844
+    },
+    {
+      "month": "2024-01",
+      "gold_average_usd_per_ounce": 2035.788208,
+      "silver_average_usd_per_ounce": 22.98624
+    },
+    {
+      "month": "2024-02",
+      "gold_average_usd_per_ounce": 2027.090942,
+      "silver_average_usd_per_ounce": 22.720108
+    },
+    {
+      "month": "2024-03",
+      "gold_average_usd_per_ounce": 2161.075195,
+      "silver_average_usd_per_ounce": 24.523281
+    },
+    {
+      "month": "2024-04",
+      "gold_average_usd_per_ounce": 2337.467041,
+      "silver_average_usd_per_ounce": 27.568392
+    },
+    {
+      "month": "2024-05",
+      "gold_average_usd_per_ounce": 2353.633789,
+      "silver_average_usd_per_ounce": 29.481573
+    },
+    {
+      "month": "2024-06",
+      "gold_average_usd_per_ounce": 2330.068848,
+      "silver_average_usd_per_ounce": 29.711332
+    },
+    {
+      "month": "2024-07",
+      "gold_average_usd_per_ounce": 2395.200439,
+      "silver_average_usd_per_ounce": 29.839169
+    },
+    {
+      "month": "2024-08",
+      "gold_average_usd_per_ounce": 2473.047852,
+      "silver_average_usd_per_ounce": 28.64365
+    },
+    {
+      "month": "2024-09",
+      "gold_average_usd_per_ounce": 2571.846191,
+      "silver_average_usd_per_ounce": 30.07674
+    },
+    {
+      "month": "2024-10",
+      "gold_average_usd_per_ounce": 2692.694824,
+      "silver_average_usd_per_ounce": 32.521145
+    },
+    {
+      "month": "2024-11",
+      "gold_average_usd_per_ounce": 2657.267578,
+      "silver_average_usd_per_ounce": 31.182293
+    },
+    {
+      "month": "2024-12",
+      "gold_average_usd_per_ounce": 2645.340332,
+      "silver_average_usd_per_ounce": 30.50716
+    },
+    {
+      "month": "2025-01",
+      "gold_average_usd_per_ounce": 2724.95752,
+      "silver_average_usd_per_ounce": 30.533812
+    },
+    {
+      "month": "2025-02",
+      "gold_average_usd_per_ounce": 2898.751953,
+      "silver_average_usd_per_ounce": 32.244392
+    },
+    {
+      "month": "2025-03",
+      "gold_average_usd_per_ounce": 2984.983398,
+      "silver_average_usd_per_ounce": 33.225159
+    },
+    {
+      "month": "2025-04",
+      "gold_average_usd_per_ounce": 3228.835693,
+      "silver_average_usd_per_ounce": 32.370361
+    },
+    {
+      "month": "2025-05",
+      "gold_average_usd_per_ounce": 3294.565918,
+      "silver_average_usd_per_ounce": 32.847275
+    },
+    {
+      "month": "2025-06",
+      "gold_average_usd_per_ounce": 3322.989014,
+      "silver_average_usd_per_ounce": 36.067265
+    },
+    {
+      "month": "2025-07",
+      "gold_average_usd_per_ounce": 3343.869629,
+      "silver_average_usd_per_ounce": 37.841747
+    },
+    {
+      "month": "2025-08",
+      "gold_average_usd_per_ounce": 3370.25,
+      "silver_average_usd_per_ounce": 38.229824
+    },
+    {
+      "month": "2025-09",
+      "gold_average_usd_per_ounce": 3664.445557,
+      "silver_average_usd_per_ounce": 42.76199
+    },
+    {
+      "month": "2025-10",
+      "gold_average_usd_per_ounce": 4061.033447,
+      "silver_average_usd_per_ounce": 49.519012
+    },
+    {
+      "month": "2025-11",
+      "gold_average_usd_per_ounce": 4082.568359,
+      "silver_average_usd_per_ounce": 50.78241
+    },
+    {
+      "month": "2025-12",
+      "gold_average_usd_per_ounce": 4326.069336,
+      "silver_average_usd_per_ounce": 65.617706
+    },
+    {
+      "month": "2026-01",
+      "gold_average_usd_per_ounce": 4702.040039,
+      "silver_average_usd_per_ounce": 89.750473
+    },
+    {
+      "month": "2026-02",
+      "gold_average_usd_per_ounce": 5025.763184,
+      "silver_average_usd_per_ounce": 82.234932
+    },
+    {
+      "month": "2026-03",
+      "gold_average_usd_per_ounce": 4877.483398,
+      "silver_average_usd_per_ounce": 78.593117
+    },
+    {
+      "month": "2026-04",
+      "gold_average_usd_per_ounce": 4726.781418,
+      "silver_average_usd_per_ounce": 75.99099
+    },
+    {
+      "month": "2026-05",
+      "gold_average_usd_per_ounce": 4574.570835,
+      "silver_average_usd_per_ounce": 77.232904
+    },
+    {
+      "month": "2026-06",
+      "gold_average_usd_per_ounce": 4230.237427,
+      "silver_average_usd_per_ounce": 66.233957
+    },
+    {
+      "month": "2026-07",
+      "gold_average_usd_per_ounce": 4077.902614,
+      "silver_average_usd_per_ounce": 58.950626
+    },
+    {
+      "month": "2026-08",
+      "gold_average_usd_per_ounce": 4394.648857,
+      "silver_average_usd_per_ounce": 65.043235
+    },
+    {
+      "month": "2026-09",
+      "gold_average_usd_per_ounce": 4337.398955,
+      "silver_average_usd_per_ounce": 64.94465
+    }
+  ]
+}
